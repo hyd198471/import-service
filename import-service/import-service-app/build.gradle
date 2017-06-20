@@ -1,0 +1,31 @@
+group 'com.wewash.services'
+version '1.0-SNAPSHOT'
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.5.2.RELEASE")
+    }
+}
+
+apply plugin: 'application'
+apply plugin: 'idea'
+apply plugin: 'org.springframework.boot'
+
+jar {
+    baseName = 'import-service'
+    version =  '0.1.0'
+}
+
+
+
+dependencies {
+    compile project(':import-service-core')
+    compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
+    compile("org.springframework.boot:spring-boot-starter-web")
+    compile("org.springframework.boot:spring-boot-starter-jetty")
+    compile("org.springframework.boot:spring-boot-starter-actuator")
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
