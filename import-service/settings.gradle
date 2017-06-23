@@ -1,4 +1,4 @@
 rootProject.name = 'import-service'
-include 'import-service-core'
-include 'import-service-app'
+include 'import-service-domain'
+include 'import-service-api-impl'
 

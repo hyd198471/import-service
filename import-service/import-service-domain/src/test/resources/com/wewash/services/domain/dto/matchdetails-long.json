@@ -1,0 +1,4673 @@
+{
+  "Header": {
+    "MessageGuid": "c24cf635-4cda-4901-b7f9-1227342b1e25",
+    "TimeStampUtc": "2017-02-06T21:10:18.6422359Z",
+    "Retry": 0
+  },
+  "FootballMatchDetails": {
+    "CustomerId": 7238,
+    "FixtureId": "4105750",
+    "MatchActions": {
+      "Goals": {
+        "Goals": [
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:21:26.7000000",
+            "Team": "Away",
+            "ScoredByPlayerId": 822014,
+            "IsOwnGoal": false,
+            "WasScoredFromPenalty": false,
+            "IsConfirmed": true
+          }
+        ],
+        "IsCollected": true,
+        "IsReliable": true
+      },
+      "YellowCards": {
+        "MatchActions": [
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:27:21.5940000",
+            "Team": "Away",
+            "PlayerId": 837599,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:07:07.3470000",
+            "Team": "Away",
+            "PlayerId": 819548,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:30:29.7800000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:43:58.5300000",
+            "Team": "Away",
+            "PlayerId": 822014,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:48:52.3400000",
+            "Team": "Home",
+            "PlayerId": 793073,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:49:06.6230000",
+            "Team": "Away",
+            "PlayerId": 883925,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:49:24.2930000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          }
+        ],
+        "IsCollected": true,
+        "IsReliable": true
+      },
+      "SecondYellowCards": {
+        "MatchActions": [],
+        "IsCollected": true,
+        "IsReliable": true
+      },
+      "StraightRedCards": {
+        "MatchActions": [],
+        "IsCollected": true,
+        "IsReliable": true
+      },
+      "Substitutions": {
+        "Substitutions": [
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:09:14.8010000",
+            "Team": "Away",
+            "OnPlayerId": null,
+            "OffPlayerId": 940366,
+            "IsConfirmed": true
+          }
+        ],
+        "IsCollected": true,
+        "IsReliable": true
+      },
+      "ShotsOnTarget": {
+        "MatchActions": [
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:11:26.8600000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:16:39.0740000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:26:47.8330000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:32:39.3920000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:33:40.2700000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:40:54.0810000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:45:11.7180000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:17:25.2300000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          }
+        ],
+        "IsCollected": true,
+        "IsReliable": true
+      },
+      "ShotsOffTarget": {
+        "MatchActions": [
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:12:34.3810000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:20:26.5060000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:23:07.7900000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:29:14.0980000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:45:14.6320000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:03:12.0780000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:03:56.2200000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:20:52.5580000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:34:49.8720000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:49:59.1170000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          }
+        ],
+        "IsCollected": true,
+        "IsReliable": true
+      },
+      "ShotsOffWoodwork": {
+        "ShotsOffWoodwork": [
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:13:00.2280000",
+            "Team": "Home",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:24:49.4890000",
+            "Team": "Home",
+            "IsConfirmed": true
+          }
+        ],
+        "IsCollected": true,
+        "IsReliable": true
+      },
+      "BlockedShots": {
+        "MatchActions": [
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:01:45.9290000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:14:57.9400000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:21:59.5120000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:34:29.7510000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:13:09.5100000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:26:59.0380000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:34:33.1650000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:40:15.9320000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          }
+        ],
+        "IsCollected": true,
+        "IsReliable": true
+      },
+      "Corners": {
+        "MatchActions": [
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:08:34.6060000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:14:49.9910000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:23:01.3860000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:34:19.7520000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:43:36.6230000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:45:11.5940000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:06:27.1060000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:17:18.7990000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:26:55.6370000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:28:20.2970000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:32:25.8790000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:38:00.1590000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:45:31.5420000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:45:46.2190000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          }
+        ],
+        "IsCollected": true,
+        "IsReliable": true
+      },
+      "PenaltiesAwarded": {
+        "MatchActions": [],
+        "IsCollected": true,
+        "IsReliable": true
+      },
+      "Fouls": {
+        "Fouls": [
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:02:08.9690000",
+            "FoulingTeam": "Away",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:04:10.3180000",
+            "FoulingTeam": "Away",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:05:04.9380000",
+            "FoulingTeam": "Home",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:05:42.5960000",
+            "FoulingTeam": "Away",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:08:49.6070000",
+            "FoulingTeam": "Home",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:10:20.1010000",
+            "FoulingTeam": "Home",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:13:37.7670000",
+            "FoulingTeam": "Away",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:17:44.6570000",
+            "FoulingTeam": "Home",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:18:52.6820000",
+            "FoulingTeam": "Home",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:22:12.7230000",
+            "FoulingTeam": "Home",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:23:54.1160000",
+            "FoulingTeam": "Away",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:25:49.0610000",
+            "FoulingTeam": "Away",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:26:16.8310000",
+            "FoulingTeam": "Home",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:27:14.4290000",
+            "FoulingTeam": "Away",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:31:49.6630000",
+            "FoulingTeam": "Home",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:38:53.9650000",
+            "FoulingTeam": "Home",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:43:52.0530000",
+            "FoulingTeam": "Home",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:02:03.8540000",
+            "FoulingTeam": "Away",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:02:22.0040000",
+            "FoulingTeam": "Away",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:05:34.2900000",
+            "FoulingTeam": "Home",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:07:00.1100000",
+            "FoulingTeam": "Away",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:08:16.7600000",
+            "FoulingTeam": "Away",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:10:24.3170000",
+            "FoulingTeam": "Away",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:11:10.2160000",
+            "FoulingTeam": "Home",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:14:23.0880000",
+            "FoulingTeam": "Home",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:18:04.1890000",
+            "FoulingTeam": "Home",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:29:09.3760000",
+            "FoulingTeam": "Home",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:30:06.9660000",
+            "FoulingTeam": "Home",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:33:47.3000000",
+            "FoulingTeam": "Home",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:35:47.7080000",
+            "FoulingTeam": "Away",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:38:29.7020000",
+            "FoulingTeam": "Home",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:39:02.4740000",
+            "FoulingTeam": "Home",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:47:19.6090000",
+            "FoulingTeam": "Home",
+            "IsConfirmed": true
+          }
+        ],
+        "IsCollected": true,
+        "IsReliable": true
+      },
+      "Offsides": {
+        "MatchActions": [
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:25:17.2970000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:28:04.7690000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:12:07.4920000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:32:59.2910000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:43:37.0550000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:46:27.7240000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          }
+        ],
+        "IsCollected": true,
+        "IsReliable": true
+      },
+      "GoalKicks": {
+        "MatchActions": [
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:12:36.1980000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:18:04.7300000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:20:27.6980000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:23:09.1220000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:29:18.1850000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:30:01.3580000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:45:16.1890000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:03:14.9790000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:03:57.4920000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:20:53.9440000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:34:51.4970000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:50:01.3010000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          }
+        ],
+        "IsCollected": true,
+        "IsReliable": true
+      },
+      "MissedPenalties": {
+        "MatchActions": [],
+        "IsCollected": true,
+        "IsReliable": true
+      },
+      "ThrowIns": {
+        "MatchActions": [
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:00:12.7380000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:00:55.4700000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:01:29.7940000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:02:49.2290000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:07:19.9880000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:09:44.8780000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:11:06.4190000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:11:40.0240000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:15:14.8210000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:16:47.1850000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:17:03.0740000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:19:32.6200000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:21:17.4270000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:26:56.8360000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:30:28.5700000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:30:50.6170000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:34:48.4730000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:38:30.5940000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:39:43.9780000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:41:42.8340000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:44:19.2250000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:45:48.9020000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:46:23.4680000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:47:06.7980000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:48:04.9990000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:48:40.9850000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:00:21.7730000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:04:42.4410000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:04:58.7620000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:06:44.0240000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:10:02.0550000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:12:20.8900000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:13:10.7780000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:15:07.0680000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:15:52.5660000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:16:14.5440000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:16:38.4830000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:17:35.4550000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:22:27.2960000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:24:50.8250000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:28:43.2260000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:29:23.5090000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:32:32.9410000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:36:08.9050000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:38:11.0280000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:39:58.2710000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:40:21.7180000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:41:17.0040000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:42:07.8890000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:46:11.0160000",
+            "Team": "Home",
+            "PlayerId": null,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:46:59.5050000",
+            "Team": "Away",
+            "PlayerId": null,
+            "IsConfirmed": true
+          }
+        ],
+        "IsCollected": true,
+        "IsReliable": true
+      },
+      "StoppageTimeAnnouncements": {
+        "StoppageTimeAnnouncements": [
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:45:04.6430000",
+            "AddedMinutes": 4,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:45:03.5140000",
+            "AddedMinutes": 3,
+            "IsConfirmed": true
+          }
+        ],
+        "IsCollected": true,
+        "IsReliable": true
+      },
+      "PhaseChanges": {
+        "PhaseChanges": [
+          {
+            "PreviousPhase": "PreMatch",
+            "CurrentPhase": "FirstHalf",
+            "CurrentPhaseStartTime": "2017-02-06T19:00:00.141Z",
+            "IsConfirmed": true,
+            "MessageId": null,
+            "Message": null
+          },
+          {
+            "PreviousPhase": "FirstHalf",
+            "CurrentPhase": "HalfTime",
+            "CurrentPhaseStartTime": "2017-02-06T19:49:01.779Z",
+            "IsConfirmed": true,
+            "MessageId": null,
+            "Message": null
+          },
+          {
+            "PreviousPhase": "HalfTime",
+            "CurrentPhase": "SecondHalf",
+            "CurrentPhaseStartTime": "2017-02-06T20:05:26.494Z",
+            "IsConfirmed": true,
+            "MessageId": null,
+            "Message": null
+          },
+          {
+            "PreviousPhase": "SecondHalf",
+            "CurrentPhase": "PostMatch",
+            "CurrentPhaseStartTime": "2017-02-06T20:55:35.245Z",
+            "IsConfirmed": true,
+            "MessageId": null,
+            "Message": null
+          }
+        ],
+        "IsCollected": true,
+        "IsReliable": true
+      },
+      "DangerStateChanges": {
+        "DangerStateChanges": [
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:00:01.9780000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:00:22.5110000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:00:23.1320000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:00:28.3910000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:00:31.1010000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:00:41.9370000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:00:46.7360000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:01:09.6120000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:01:30.3780000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:01:40.9900000",
+            "DangerState": "AwayDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:01:49.4290000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:02:08.9690000",
+            "DangerState": "HomeFreeKick",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:02:30.5060000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:02:38.6610000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:02:42.3320000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:02:58.4420000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:03:01.1590000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:03:22.8780000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:03:28.1370000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:03:33.7050000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:03:48.5250000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:03:53.2690000",
+            "DangerState": "AwayDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:04:10.2810000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:04:10.3180000",
+            "DangerState": "HomeFreeKick",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:04:35.6360000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:04:54.7340000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:04:56.8290000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:05:04.9380000",
+            "DangerState": "AwayAttackingFreeKick",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:05:18.4370000",
+            "DangerState": "AwayDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:05:28.3580000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:05:30.6990000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:05:42.5620000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:05:42.5960000",
+            "DangerState": "HomeFreeKick",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:05:53.2520000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:06:04.5170000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:06:09.6720000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:06:42.9950000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:06:54.3170000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:07:07.1600000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:07:16.1930000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:07:22.4820000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:07:50.8810000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:07:50.9220000",
+            "DangerState": "AwayDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:08:02.1060000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:08:02.1060000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:08:04.2290000",
+            "DangerState": "HomeCorner",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:08:34.6060000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:08:44.2660000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:08:49.6070000",
+            "DangerState": "AwayFreeKick",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:09:23.0420000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:09:31.2110000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:10:02.4680000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:10:20.0620000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:10:20.1010000",
+            "DangerState": "AwayFreeKick",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:10:49.0760000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:10:51.1150000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:10:52.8570000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:10:55.2030000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:11:03.4150000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:11:30.9540000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:11:45.5420000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:11:54.5110000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:12:02.0580000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:12:23.8000000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:12:27.9740000",
+            "DangerState": "AwayDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:12:35.4080000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:13:18.0620000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:13:27.7440000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:13:28.5900000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:13:31.4950000",
+            "DangerState": "AwayDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:13:37.7320000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:13:37.7670000",
+            "DangerState": "HomeFreeKick",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:14:12.5300000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:14:15.5680000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:14:26.3460000",
+            "DangerState": "HomeCorner",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:14:49.9910000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:15:48.7270000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:15:55.0980000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:16:04.6120000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:16:09.4360000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:16:29.1730000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:16:33.0280000",
+            "DangerState": "AwayDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:16:58.7610000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:16:59.3290000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:17:17.1020000",
+            "DangerState": "AwayDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:17:23.3920000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:17:27.9690000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:17:44.6570000",
+            "DangerState": "AwayAttackingFreeKick",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:17:51.1100000",
+            "DangerState": "AwayDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:18:03.6990000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:18:36.7750000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:18:46.6160000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:18:52.6050000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:18:52.6820000",
+            "DangerState": "AwayFreeKick",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:19:06.4780000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:19:13.8180000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:19:19.8780000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:19:58.4060000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:20:12.1270000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:20:14.5610000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:20:18.1990000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:20:27.1830000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:21:02.9600000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:21:11.2850000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:21:12.3510000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:21:34.0180000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:21:38.5170000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:21:42.8490000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:21:46.8640000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:21:49.6870000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:21:51.2070000",
+            "DangerState": "AwayDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:22:06.6700000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:22:07.3060000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:22:12.7230000",
+            "DangerState": "AwayAttackingFreeKick",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:22:21.7060000",
+            "DangerState": "AwayDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:22:22.7820000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:22:23.7950000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:22:36.5300000",
+            "DangerState": "AwayDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:22:42.5940000",
+            "DangerState": "AwayCorner",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:23:01.3860000",
+            "DangerState": "AwayDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:23:08.3630000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:23:38.8710000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:23:41.0570000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:23:48.1720000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:23:54.0780000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:23:54.1160000",
+            "DangerState": "HomeFreeKick",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:24:03.1640000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:24:04.5480000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:24:09.9120000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:24:13.0510000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:24:29.8390000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:24:39.2640000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:24:43.0010000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:24:49.3200000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:24:53.9920000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:24:57.3750000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:25:03.8320000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:25:10.1250000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:25:17.0740000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:25:17.2970000",
+            "DangerState": "Safe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:25:17.2970000",
+            "DangerState": "AwayFreeKick",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:25:36.8620000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:25:49.0190000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:25:49.0610000",
+            "DangerState": "HomeFreeKick",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:25:56.8630000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:25:59.1150000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:26:11.6770000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:26:16.8310000",
+            "DangerState": "AwayFreeKick",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:26:42.3160000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:26:42.8030000",
+            "DangerState": "AwayDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:26:48.8490000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:26:54.1380000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:27:14.4290000",
+            "DangerState": "HomeDangerousFreeKick",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:27:51.9240000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:28:04.7330000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:28:04.7690000",
+            "DangerState": "Safe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:28:04.7690000",
+            "DangerState": "AwayFreeKick",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:28:33.2500000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:28:37.6060000",
+            "DangerState": "AwayDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:28:42.1120000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:28:43.7810000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:28:46.6960000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:28:58.1720000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:29:01.1310000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:29:06.0430000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:29:18.1490000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:29:45.7940000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:29:50.1550000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:29:54.1510000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:29:57.1530000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:30:00.4240000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:30:44.3430000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:31:03.8770000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:31:04.5530000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:31:07.5830000",
+            "DangerState": "AwayDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:31:15.4020000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:31:25.3540000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:31:28.7340000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:31:33.2880000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:31:39.4460000",
+            "DangerState": "AwayDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:31:49.6630000",
+            "DangerState": "AwayDangerousFreeKick",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:32:36.2330000",
+            "DangerState": "AwayDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:32:40.0650000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:33:00.9520000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:33:10.7690000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:33:26.4080000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:33:31.7790000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:33:37.8480000",
+            "DangerState": "HomeCorner",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:34:19.7520000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:34:38.1240000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:34:38.7100000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:38:19.8520000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:38:25.8630000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:38:53.9210000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:38:53.9650000",
+            "DangerState": "AwayFreeKick",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:39:02.3080000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:39:07.0150000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:39:15.2950000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:39:18.3690000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:39:34.3310000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:39:47.2690000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:39:52.1690000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:40:01.0030000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:40:11.0600000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:40:20.7270000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:40:25.9740000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:40:35.4180000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:40:37.6790000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:40:43.0830000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:40:46.3090000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:40:54.8810000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:41:12.3320000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:41:23.8990000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:41:37.2290000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:41:39.0560000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:42:28.0130000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:42:31.4230000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:42:32.8370000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:42:40.3530000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:42:52.7720000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:43:04.9900000",
+            "DangerState": "HomeCorner",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:43:36.6230000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:43:52.0180000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:43:52.0530000",
+            "DangerState": "AwayFreeKick",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:44:21.9210000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:44:31.3320000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:44:31.9890000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:44:37.3380000",
+            "DangerState": "AwayDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:44:47.0960000",
+            "DangerState": "AwayCorner",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:45:11.5940000",
+            "DangerState": "AwayDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:45:15.4030000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:45:43.7500000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:46:03.7850000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:46:05.6110000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:46:07.8060000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:46:15.8860000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:46:33.6220000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:46:42.6320000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:46:47.2700000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:47:01.1120000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:47:30.9660000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:47:50.3090000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:47:50.8620000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:48:21.8230000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:48:34.0180000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:49:01.6380000",
+            "DangerState": "Safe",
+            "IsConfirmed": false
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:00:02.8630000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:00:25.5320000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:00:54.0810000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:00:57.1110000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:01:12.0280000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:01:23.2670000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:01:24.3850000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:01:42.2590000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:01:47.7950000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:02:03.8540000",
+            "DangerState": "HomeDangerousFreeKick",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:02:12.8130000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:02:22.0040000",
+            "DangerState": "HomeDangerousFreeKick",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:03:03.4310000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:03:13.2270000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:03:47.7680000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:03:49.0330000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:03:56.7530000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:04:52.1470000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:05:00.8360000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:05:01.1910000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:05:10.2150000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:05:24.7570000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:05:27.2030000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:05:34.2900000",
+            "DangerState": "AwayAttackingFreeKick",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:05:44.5390000",
+            "DangerState": "AwayDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:05:55.5940000",
+            "DangerState": "AwayCorner",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:06:27.1060000",
+            "DangerState": "AwayDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:06:55.6380000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:06:56.2280000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:07:00.1100000",
+            "DangerState": "HomeAttackingFreeKick",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:07:40.1450000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:07:44.5680000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:08:04.2740000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:08:07.0930000",
+            "DangerState": "AwayDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:08:16.7280000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:08:16.7600000",
+            "DangerState": "HomeFreeKick",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:09:39.0280000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:09:52.0800000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:09:53.2690000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:10:24.3170000",
+            "DangerState": "HomeDangerousFreeKick",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:10:55.4740000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:11:01.4540000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:11:06.9250000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:11:10.2160000",
+            "DangerState": "AwayAttackingFreeKick",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:11:30.5900000",
+            "DangerState": "AwayDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:11:32.2220000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:11:32.7590000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:11:38.5210000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:11:42.4580000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:11:46.3590000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:12:07.4920000",
+            "DangerState": "Safe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:12:07.4920000",
+            "DangerState": "AwayFreeKick",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:12:14.4780000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:12:41.6820000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:12:42.4780000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:12:54.3420000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:12:54.3790000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:12:54.4130000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:13:41.7620000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:13:51.7770000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:13:55.6710000",
+            "DangerState": "AwayDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:14:23.0880000",
+            "DangerState": "AwayDangerousFreeKick",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:14:52.6900000",
+            "DangerState": "AwayDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:14:56.2660000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:14:57.5370000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:15:02.3420000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:15:27.3690000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:15:28.2790000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:15:37.9940000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:15:38.7720000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:15:41.6740000",
+            "DangerState": "AwayDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:17:04.8250000",
+            "DangerState": "AwayCorner",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:17:18.7990000",
+            "DangerState": "AwayDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:17:48.4120000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:17:58.7960000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:18:04.1890000",
+            "DangerState": "AwayAttackingFreeKick",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:18:17.2850000",
+            "DangerState": "AwayDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:18:29.8340000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:18:30.4290000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:18:33.5070000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:18:40.9180000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:18:44.2990000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:20:30.5740000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:20:42.0940000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:20:43.8510000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:20:53.1080000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:21:20.6990000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:21:23.2140000",
+            "DangerState": "AwayDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:21:26.7000000",
+            "DangerState": "AwayGoal",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:21:59.4230000",
+            "DangerState": "Safe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:22:12.6330000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:22:15.0860000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:22:47.1000000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:23:18.1130000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:23:18.6450000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:23:42.4840000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:23:56.6200000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:23:59.2370000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:24:04.9870000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:24:08.0570000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:24:15.9160000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:24:24.0440000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:24:30.7760000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:24:31.5720000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:25:04.6020000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:25:05.1150000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:25:10.6480000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:25:29.9750000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:25:38.9500000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:25:38.9910000",
+            "DangerState": "HomeFreeKick",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:25:43.3720000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:25:46.2000000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:26:24.3440000",
+            "DangerState": "HomeCorner",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:26:55.6370000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:27:05.5240000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:27:06.6730000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:27:22.2730000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:27:31.2660000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:27:39.7600000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:27:42.3930000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:27:43.8680000",
+            "DangerState": "AwayDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:27:49.5050000",
+            "DangerState": "AwayCorner",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:28:20.2970000",
+            "DangerState": "AwayDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:28:33.6550000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:28:36.8310000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:28:46.1440000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:28:48.6950000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:29:09.3760000",
+            "DangerState": "AwayAttackingFreeKick",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:29:09.9840000",
+            "DangerState": "AwayDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:29:17.7390000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:29:18.7770000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:29:47.8630000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:29:57.3680000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:30:06.9660000",
+            "DangerState": "AwayAttackingFreeKick",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:31:41.7790000",
+            "DangerState": "AwayDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:31:51.6010000",
+            "DangerState": "AwayCorner",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:32:25.8790000",
+            "DangerState": "AwayDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:32:59.2540000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:32:59.2910000",
+            "DangerState": "Safe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:32:59.2910000",
+            "DangerState": "HomeFreeKick",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:33:24.1010000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:33:34.4780000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:33:37.9370000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:33:47.3000000",
+            "DangerState": "AwayFreeKick",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:34:17.4000000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:34:17.4400000",
+            "DangerState": "AwayDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:34:50.6170000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:35:14.0580000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:35:16.6190000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:35:40.8030000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:35:47.6580000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:35:47.7080000",
+            "DangerState": "HomeFreeKick",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:35:49.1970000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:35:51.2700000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:35:53.3970000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:35:56.8450000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:36:03.4700000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:36:27.3680000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:36:29.7190000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:36:31.7840000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:36:42.7020000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:36:46.8890000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:36:53.3790000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:37:00.3650000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:37:02.4750000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:37:07.4680000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:37:21.8810000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:37:23.5760000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:37:29.9490000",
+            "DangerState": "HomeCorner",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:38:00.1590000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:38:24.8690000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:38:29.7020000",
+            "DangerState": "AwayFreeKick",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:38:47.5070000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:39:02.4030000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:39:02.4740000",
+            "DangerState": "AwayFreeKick",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:39:20.9000000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:39:25.0410000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:39:29.1080000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:39:44.3860000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:39:48.7510000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:40:23.1060000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:40:24.1990000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:40:39.6790000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:41:04.9320000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:41:12.7020000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:41:24.1380000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:41:32.6530000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:41:36.1550000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:41:47.9380000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:41:51.6110000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:41:59.8920000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:42:23.0810000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:42:27.2380000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:42:30.7920000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:42:41.7050000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:42:48.3990000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:42:56.3860000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:43:00.1200000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:43:18.0480000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:43:21.8480000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:43:36.8230000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:43:37.0550000",
+            "DangerState": "Safe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:43:37.0550000",
+            "DangerState": "AwayFreeKick",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:43:49.5170000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:44:15.7280000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:44:15.7630000",
+            "DangerState": "HomeFreeKick",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:44:28.6060000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:44:30.6080000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:44:43.4250000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:44:55.1810000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:45:04.6720000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:45:05.1980000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:45:07.5290000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:45:11.2820000",
+            "DangerState": "HomeCorner",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:45:31.5420000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:45:36.5780000",
+            "DangerState": "HomeCorner",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:45:46.2190000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:45:48.3850000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:46:06.3570000",
+            "DangerState": "HomeAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:46:20.3820000",
+            "DangerState": "HomeDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:46:27.6810000",
+            "DangerState": "AwaySafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:46:27.7240000",
+            "DangerState": "Safe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:46:27.7240000",
+            "DangerState": "AwayFreeKick",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:46:56.7610000",
+            "DangerState": "AwayAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:47:12.8520000",
+            "DangerState": "AwayDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:47:19.6090000",
+            "DangerState": "AwayDangerousFreeKick",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:49:56.9860000",
+            "DangerState": "AwayDangerousAttack",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:50:00.5680000",
+            "DangerState": "HomeSafe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:50:08.7510000",
+            "DangerState": "Safe",
+            "IsConfirmed": false
+          }
+        ],
+        "IsCollected": true,
+        "IsReliable": true
+      },
+      "LineupUpdates": {
+        "Updates": [
+          {
+            "Phase": "PreMatch",
+            "TimeElapsedInPhase": "00:00:00",
+            "NewLineup": {
+              "StartingOnPitch": [
+                {
+                  "Id": null,
+                  "Name": "B. Killip",
+                  "ShirtNumber": 1
+                },
+                {
+                  "Id": null,
+                  "Name": "L. Ramsay",
+                  "ShirtNumber": 2
+                },
+                {
+                  "Id": 143530,
+                  "Name": "J. Lewis",
+                  "ShirtNumber": 3
+                },
+                {
+                  "Id": null,
+                  "Name": "J. Crowe",
+                  "ShirtNumber": 4
+                },
+                {
+                  "Id": null,
+                  "Name": "M. Efete",
+                  "ShirtNumber": 5
+                },
+                {
+                  "Id": null,
+                  "Name": "O. Odusina",
+                  "ShirtNumber": 6
+                },
+                {
+                  "Id": null,
+                  "Name": "D. Jaiyesimi",
+                  "ShirtNumber": 7
+                },
+                {
+                  "Id": null,
+                  "Name": "B. Ashley-Seal",
+                  "ShirtNumber": 9
+                },
+                {
+                  "Id": null,
+                  "Name": "T. Cantwell",
+                  "ShirtNumber": 10
+                },
+                {
+                  "Id": null,
+                  "Name": "G. Middleton",
+                  "ShirtNumber": 11
+                }
+              ],
+              "StartingBench": [
+                {
+                  "Id": null,
+                  "Name": "A. Spyrou",
+                  "ShirtNumber": 12
+                },
+                {
+                  "Id": null,
+                  "Name": "J. Hallett",
+                  "ShirtNumber": 13
+                },
+                {
+                  "Id": null,
+                  "Name": "E. Mututala-Sambu",
+                  "ShirtNumber": 14
+                },
+                {
+                  "Id": null,
+                  "Name": "T. Syme",
+                  "ShirtNumber": 15
+                },
+                {
+                  "Id": null,
+                  "Name": "M. Aarons",
+                  "ShirtNumber": 16
+                }
+              ]
+            },
+            "Team": "Home",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "PreMatch",
+            "TimeElapsedInPhase": "00:00:00",
+            "NewLineup": {
+              "StartingOnPitch": [
+                {
+                  "Id": null,
+                  "Name": "V. Johansson",
+                  "ShirtNumber": 1
+                },
+                {
+                  "Id": null,
+                  "Name": "T. Leggett",
+                  "ShirtNumber": 2
+                },
+                {
+                  "Id": 807561,
+                  "Name": "R. Calder",
+                  "ShirtNumber": 3
+                },
+                {
+                  "Id": null,
+                  "Name": "C. O'Hare",
+                  "ShirtNumber": 4
+                },
+                {
+                  "Id": 819548,
+                  "Name": "E. Suliman",
+                  "ShirtNumber": 5
+                },
+                {
+                  "Id": null,
+                  "Name": "C. Taylor",
+                  "ShirtNumber": 7
+                },
+                {
+                  "Id": 837599,
+                  "Name": "J. Sellars",
+                  "ShirtNumber": 8
+                },
+                {
+                  "Id": 883925,
+                  "Name": "K. Davis",
+                  "ShirtNumber": 9
+                },
+                {
+                  "Id": 940366,
+                  "Name": "H. McKirdy",
+                  "ShirtNumber": 10
+                },
+                {
+                  "Id": 822014,
+                  "Name": "A. Green",
+                  "ShirtNumber": 11
+                }
+              ],
+              "StartingBench": [
+                {
+                  "Id": 834220,
+                  "Name": "J. Linley",
+                  "ShirtNumber": 12
+                },
+                {
+                  "Id": null,
+                  "Name": "E. Idem",
+                  "ShirtNumber": 13
+                },
+                {
+                  "Id": null,
+                  "Name": "J. Clarke",
+                  "ShirtNumber": 14
+                },
+                {
+                  "Id": null,
+                  "Name": "A. Prosser",
+                  "ShirtNumber": 15
+                }
+              ]
+            },
+            "Team": "Away",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:00:52.9630000",
+            "NewLineup": {
+              "StartingOnPitch": [
+                {
+                  "Id": null,
+                  "Name": "B. Killip",
+                  "ShirtNumber": 1
+                },
+                {
+                  "Id": null,
+                  "Name": "L. Ramsay",
+                  "ShirtNumber": 2
+                },
+                {
+                  "Id": 143530,
+                  "Name": "J. Lewis",
+                  "ShirtNumber": 3
+                },
+                {
+                  "Id": null,
+                  "Name": "J. Crowe",
+                  "ShirtNumber": 4
+                },
+                {
+                  "Id": null,
+                  "Name": "M. Efete",
+                  "ShirtNumber": 5
+                },
+                {
+                  "Id": null,
+                  "Name": "O. Odusina",
+                  "ShirtNumber": 6
+                },
+                {
+                  "Id": null,
+                  "Name": "D. Jaiyesimi",
+                  "ShirtNumber": 7
+                },
+                {
+                  "Id": 793073,
+                  "Name": "E. Adams",
+                  "ShirtNumber": 8
+                },
+                {
+                  "Id": null,
+                  "Name": "B. Ashley-Seal",
+                  "ShirtNumber": 9
+                },
+                {
+                  "Id": null,
+                  "Name": "T. Cantwell",
+                  "ShirtNumber": 10
+                },
+                {
+                  "Id": null,
+                  "Name": "G. Middleton",
+                  "ShirtNumber": 11
+                }
+              ],
+              "StartingBench": [
+                {
+                  "Id": null,
+                  "Name": "A. Spyrou",
+                  "ShirtNumber": 12
+                },
+                {
+                  "Id": null,
+                  "Name": "J. Hallett",
+                  "ShirtNumber": 13
+                },
+                {
+                  "Id": null,
+                  "Name": "E. Mututala-Sambu",
+                  "ShirtNumber": 14
+                },
+                {
+                  "Id": null,
+                  "Name": "T. Syme",
+                  "ShirtNumber": 15
+                },
+                {
+                  "Id": null,
+                  "Name": "M. Aarons",
+                  "ShirtNumber": 16
+                }
+              ]
+            },
+            "Team": "Home",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:00:52.9630000",
+            "NewLineup": {
+              "StartingOnPitch": [
+                {
+                  "Id": null,
+                  "Name": "V. Johansson",
+                  "ShirtNumber": 1
+                },
+                {
+                  "Id": null,
+                  "Name": "T. Leggett",
+                  "ShirtNumber": 2
+                },
+                {
+                  "Id": 807561,
+                  "Name": "R. Calder",
+                  "ShirtNumber": 3
+                },
+                {
+                  "Id": null,
+                  "Name": "C. O'Hare",
+                  "ShirtNumber": 4
+                },
+                {
+                  "Id": 819548,
+                  "Name": "E. Suliman",
+                  "ShirtNumber": 5
+                },
+                {
+                  "Id": 953067,
+                  "Name": "J. Bedeau",
+                  "ShirtNumber": 6
+                },
+                {
+                  "Id": null,
+                  "Name": "C. Taylor",
+                  "ShirtNumber": 7
+                },
+                {
+                  "Id": 837599,
+                  "Name": "J. Sellars",
+                  "ShirtNumber": 8
+                },
+                {
+                  "Id": 883925,
+                  "Name": "K. Davis",
+                  "ShirtNumber": 9
+                },
+                {
+                  "Id": 940366,
+                  "Name": "H. McKirdy",
+                  "ShirtNumber": 10
+                },
+                {
+                  "Id": 822014,
+                  "Name": "A. Green",
+                  "ShirtNumber": 11
+                }
+              ],
+              "StartingBench": [
+                {
+                  "Id": 834220,
+                  "Name": "J. Linley",
+                  "ShirtNumber": 12
+                },
+                {
+                  "Id": null,
+                  "Name": "E. Idem",
+                  "ShirtNumber": 13
+                },
+                {
+                  "Id": null,
+                  "Name": "J. Clarke",
+                  "ShirtNumber": 14
+                },
+                {
+                  "Id": null,
+                  "Name": "A. Prosser",
+                  "ShirtNumber": 15
+                }
+              ]
+            },
+            "Team": "Away",
+            "IsConfirmed": true
+          }
+        ],
+        "IsCollected": true,
+        "IsReliable": true
+      },
+      "ClockActions": {
+        "ClockActions": [
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:00:00",
+            "TimestampUtc": "2017-02-06T19:00:00.141Z",
+            "ActivityType": "Start",
+            "IsClockRunning": true,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:49:01.6380000",
+            "TimestampUtc": "2017-02-06T19:49:01.779Z",
+            "ActivityType": "Stop",
+            "IsClockRunning": false,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:00:00",
+            "TimestampUtc": "2017-02-06T20:05:26.494Z",
+            "ActivityType": "Start",
+            "IsClockRunning": true,
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:50:08.7510000",
+            "TimestampUtc": "2017-02-06T20:55:35.245Z",
+            "ActivityType": "Stop",
+            "IsClockRunning": false,
+            "IsConfirmed": true
+          }
+        ],
+        "IsCollected": true,
+        "IsReliable": true
+      },
+      "BookingStateChanges": {
+        "BookingStateChanges": [
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:27:21.5940000",
+            "BookingState": "YellowCardDanger",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:27:51.9240000",
+            "BookingState": "Safe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:07:07.3470000",
+            "BookingState": "YellowCardDanger",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:07:40.1450000",
+            "BookingState": "Safe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:30:29.7800000",
+            "BookingState": "YellowCardDanger",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:31:41.7790000",
+            "BookingState": "Safe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:43:58.5300000",
+            "BookingState": "YellowCardDanger",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:44:15.7280000",
+            "BookingState": "Safe",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:47:27.5980000",
+            "BookingState": "RedCardDanger",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:49:49.7760000",
+            "BookingState": "YellowCardDanger",
+            "IsConfirmed": true
+          },
+          {
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:49:56.9860000",
+            "BookingState": "Safe",
+            "IsConfirmed": true
+          }
+        ],
+        "IsCollected": true,
+        "IsReliable": true
+      },
+      "SystemMessages": {
+        "SystemMessages": [
+          {
+            "SequenceId": 0,
+            "Phase": "PreMatch",
+            "TimeElapsedInPhase": "00:00:00",
+            "Message": "Transmission Online",
+            "Timestamp": "2017-02-06T18:20:25.855Z"
+          },
+          {
+            "SequenceId": 1,
+            "Phase": "PreMatch",
+            "TimeElapsedInPhase": "00:00:00",
+            "Message": "Pitch Condition: excellent, Weather Condition: cold",
+            "Timestamp": "2017-02-06T18:22:15.976Z"
+          },
+          {
+            "SequenceId": 2,
+            "Phase": "PreMatch",
+            "TimeElapsedInPhase": "00:00:00",
+            "Message": "Players Are Coming Out",
+            "Timestamp": "2017-02-06T18:57:29.904Z"
+          },
+          {
+            "SequenceId": 3,
+            "Phase": "PreMatch",
+            "TimeElapsedInPhase": "00:00:00",
+            "Message": "Players Lined Up",
+            "Timestamp": "2017-02-06T18:57:48.222Z"
+          },
+          {
+            "SequenceId": 4,
+            "Phase": "PreMatch",
+            "TimeElapsedInPhase": "00:00:00",
+            "Message": "Shake Hands",
+            "Timestamp": "2017-02-06T18:57:53.32Z"
+          },
+          {
+            "SequenceId": 5,
+            "Phase": "PreMatch",
+            "TimeElapsedInPhase": "00:00:00",
+            "Message": "Coin Flip",
+            "Timestamp": "2017-02-06T18:58:31.616Z"
+          },
+          {
+            "SequenceId": 6,
+            "Phase": "PreMatch",
+            "TimeElapsedInPhase": "00:00:00",
+            "Message": "Game About To Start",
+            "Timestamp": "2017-02-06T18:58:38.518Z"
+          },
+          {
+            "SequenceId": 7,
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:06:40.0590000",
+            "Message": "Transmission Online",
+            "Timestamp": "2017-02-06T19:06:40.2Z"
+          },
+          {
+            "SequenceId": 8,
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:07:59.1290000",
+            "Message": "Transmission Online",
+            "Timestamp": "2017-02-06T19:07:59.27Z"
+          },
+          {
+            "SequenceId": 9,
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:29:43.0960000",
+            "Message": "Transmission Online",
+            "Timestamp": "2017-02-06T19:29:43.237Z"
+          },
+          {
+            "SequenceId": 10,
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:34:59.0340000",
+            "Message": "Injury Break",
+            "Timestamp": "2017-02-06T19:34:59.175Z"
+          },
+          {
+            "SequenceId": 11,
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:36:39.0580000",
+            "Message": "The game is suspended due to an injured referee.",
+            "Timestamp": "2017-02-06T19:36:39.199Z"
+          },
+          {
+            "SequenceId": 12,
+            "Phase": "FirstHalf",
+            "TimeElapsedInPhase": "00:38:19.2940000",
+            "Message": "The game has been restarted.",
+            "Timestamp": "2017-02-06T19:38:19.435Z"
+          },
+          {
+            "SequenceId": 13,
+            "Phase": "HalfTime",
+            "TimeElapsedInPhase": "00:00:00",
+            "Message": "Players Are Coming Out",
+            "Timestamp": "2017-02-06T20:03:06.62Z"
+          },
+          {
+            "SequenceId": 14,
+            "Phase": "HalfTime",
+            "TimeElapsedInPhase": "00:00:00",
+            "Message": "Game About To Start",
+            "Timestamp": "2017-02-06T20:04:54.839Z"
+          },
+          {
+            "SequenceId": 15,
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:08:24.0580000",
+            "Message": "Injury Break",
+            "Timestamp": "2017-02-06T20:13:50.552Z"
+          },
+          {
+            "SequenceId": 16,
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:19:01.4280000",
+            "Message": "Injury Break",
+            "Timestamp": "2017-02-06T20:24:27.922Z"
+          },
+          {
+            "SequenceId": 17,
+            "Phase": "SecondHalf",
+            "TimeElapsedInPhase": "00:30:09.8130000",
+            "Message": "Injury Break",
+            "Timestamp": "2017-02-06T20:35:36.307Z"
+          }
+        ],
+        "IsCollected": true,
+        "IsReliable": true
+      }
+    },
+    "AwayTeam": {
+      "Id": "930197",
+      "Name": "Aston Villa U23",
+      "Strip": null
+    },
+    "HomeTeam": {
+      "Id": "930202",
+      "Name": "Norwich City U23",
+      "Strip": null
+    },
+    "IsSecondLeg": false,
+    "FirstLegScore": {
+      "Home":0,
+      "Away":2
+    },
+    "NormalTimeHalfDuration": "00:45:00",
+    "ExtraTimeHalfDuration": "00:15:00",
+    "CanGoToExtraTime": false,
+    "CanGoStraightToPenaltiesAfterNormalTime": false,
+    "CanGoToPenalties": false,
+    "MessageTimestampUtc": "2017-02-06T21:10:18.319Z"
+  }
+}

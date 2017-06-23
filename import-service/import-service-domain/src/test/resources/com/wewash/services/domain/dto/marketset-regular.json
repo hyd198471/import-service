@@ -1,0 +1,69 @@
+{
+  "Header": {
+    "MessageGuid": "e2e697ab-cb62-48ba-ac34-0625f8a740ca",
+    "TimeStampUtc": "2017-01-30T17:29:14.9756983Z",
+    "Retry": 0,
+    "MessageFixtureOrder": 26535519
+  },
+  "MarketSet": {
+    "FixtureId": 4422790,
+    "Markets": [
+      {
+        "Id": 100000018,
+        "Sequence": 0,
+        "TradingStatus": "Open",
+        "Name": "Match Result",
+        "ExpiryUtc": "2017-01-30T17:00:00Z",
+        "Handicap": 1.2,
+        "MarketType": {
+          "Id": 2,
+          "Name": "Match Result",
+          "IsHandicap": false
+        },
+        "InPlay": true,
+        "Selections": [
+          {
+            "Id": 300000081,
+            "TradingStatus": "Trading",
+            "Name": "Arka Gdynia",
+            "CompetitorId": 111713,
+            "Outcome": {
+              "Id": 1,
+              "Name": "Home"
+            },
+            "Numerator": 1,
+            "Denominator": 1,
+            "Decimal": 2.0
+          },
+          {
+            "Id": 300000082,
+            "TradingStatus": "Trading",
+            "Name": "Draw",
+            "Outcome": {
+              "Id": 2,
+              "Name": "Draw"
+            },
+            "Numerator": 5,
+            "Denominator": 2,
+            "Decimal": 3.5
+          },
+          {
+            "Id": 300000083,
+            "TradingStatus": "Trading",
+            "Name": "Cukaricki Stankom",
+            "CompetitorId": 126822,
+            "Outcome": {
+              "Id": 3,
+              "Name": "Away"
+            },
+            "Numerator": 2,
+            "Denominator": 1,
+            "Decimal": 3.0
+          }
+        ],
+        "ExternalId": 123456,
+        "CashOutStatus": "Open"
+      }
+    ]
+  }
+}

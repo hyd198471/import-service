@@ -1,0 +1,351 @@
+{
+  "Header": {
+    "MessageGuid": "dcdcd9fb-9cbc-488b-aacf-9d3105f2e549",
+    "TimeStampUtc": "2017-02-02T09:14:41.1047471Z",
+    "Retry": 1,
+    "MessageFixtureOrder": 28840416
+  },
+  "MarketSet": {
+    "FixtureId": 4431114,
+    "Markets": [
+      {
+        "Id": 100000030,
+        "Sequence": 0,
+        "TradingStatus": "Suspended",
+        "Name": "Correct Score",
+        "ExpiryUtc": "2017-02-02T09:30:00Z",
+        "MarketType": {
+          "Id": 91,
+          "Name": "Correct Score",
+          "IsHandicap": false
+        },
+        "InPlay": true,
+        "Selections": [
+          {
+            "Id": 300000119,
+            "TradingStatus": "Trading",
+            "Name": "Eastern Sporting Union Women 1-0",
+            "CompetitorId": 967307,
+            "Range": {
+              "High": 0.0,
+              "Low": 1.0
+            },
+            "Numerator": 7,
+            "Denominator": 1,
+            "Decimal": 8.0,
+            "Probability": 1.2,
+            "ExternalId": 12345
+          },
+          {
+            "Id": 300000120,
+            "TradingStatus": "Trading",
+            "Name": "Eastern Sporting Union Women 2-0",
+            "CompetitorId": 967307,
+            "Range": {
+              "High": 0.0,
+              "Low": 2.0
+            },
+            "Numerator": 11,
+            "Denominator": 1,
+            "Decimal": 12.0
+          },
+          {
+            "Id": 300000121,
+            "TradingStatus": "Trading",
+            "Name": "Eastern Sporting Union Women 2-1",
+            "CompetitorId": 967307,
+            "Range": {
+              "High": 1.0,
+              "Low": 2.0
+            },
+            "Numerator": 8,
+            "Denominator": 1,
+            "Decimal": 9.0
+          },
+          {
+            "Id": 300000122,
+            "TradingStatus": "Trading",
+            "Name": "Eastern Sporting Union Women 3-0",
+            "CompetitorId": 967307,
+            "Range": {
+              "High": 0.0,
+              "Low": 3.0
+            },
+            "Numerator": 25,
+            "Denominator": 1,
+            "Decimal": 26.0
+          },
+          {
+            "Id": 300000123,
+            "TradingStatus": "Trading",
+            "Name": "Eastern Sporting Union Women 3-1",
+            "CompetitorId": 967307,
+            "Range": {
+              "High": 1.0,
+              "Low": 3.0
+            },
+            "Numerator": 18,
+            "Denominator": 1,
+            "Decimal": 19.0
+          },
+          {
+            "Id": 300000124,
+            "TradingStatus": "Trading",
+            "Name": "Eastern Sporting Union Women 3-2",
+            "CompetitorId": 967307,
+            "Range": {
+              "High": 2.0,
+              "Low": 3.0
+            },
+            "Numerator": 25,
+            "Denominator": 1,
+            "Decimal": 26.0
+          },
+          {
+            "Id": 300000125,
+            "TradingStatus": "Trading",
+            "Name": "Eastern Sporting Union Women 4-0",
+            "CompetitorId": 967307,
+            "Range": {
+              "High": 0.0,
+              "Low": 4.0
+            },
+            "Numerator": 66,
+            "Denominator": 1,
+            "Decimal": 67.0
+          },
+          {
+            "Id": 300000126,
+            "TradingStatus": "Trading",
+            "Name": "Eastern Sporting Union Women 4-1",
+            "CompetitorId": 967307,
+            "Range": {
+              "High": 1.0,
+              "Low": 4.0
+            },
+            "Numerator": 50,
+            "Denominator": 1,
+            "Decimal": 51.0
+          },
+          {
+            "Id": 300000127,
+            "TradingStatus": "Trading",
+            "Name": "Eastern Sporting Union Women 4-2",
+            "CompetitorId": 967307,
+            "Range": {
+              "High": 2.0,
+              "Low": 4.0
+            },
+            "Numerator": 66,
+            "Denominator": 1,
+            "Decimal": 67.0
+          },
+          {
+            "Id": 300000128,
+            "TradingStatus": "Trading",
+            "Name": "Eastern Sporting Union Women 4-3",
+            "CompetitorId": 967307,
+            "Range": {
+              "High": 3.0,
+              "Low": 4.0
+            },
+            "Numerator": 100,
+            "Denominator": 1,
+            "Decimal": 101.0
+          },
+          {
+            "Id": 300000115,
+            "TradingStatus": "Trading",
+            "Name": "Draw 0-0",
+            "Range": {
+              "High": 0.0,
+              "Low": 0.0
+            },
+            "Numerator": 8,
+            "Denominator": 1,
+            "Decimal": 9.0
+          },
+          {
+            "Id": 300000116,
+            "TradingStatus": "Trading",
+            "Name": "Draw 1-1",
+            "Range": {
+              "High": 1.0,
+              "Low": 1.0
+            },
+            "Numerator": 5,
+            "Denominator": 1,
+            "Decimal": 6.0
+          },
+          {
+            "Id": 300000117,
+            "TradingStatus": "Trading",
+            "Name": "Draw 2-2",
+            "Range": {
+              "High": 2.0,
+              "Low": 2.0
+            },
+            "Numerator": 12,
+            "Denominator": 1,
+            "Decimal": 13.0
+          },
+          {
+            "Id": 300000118,
+            "TradingStatus": "Trading",
+            "Name": "Draw 3-3",
+            "Range": {
+              "High": 3.0,
+              "Low": 3.0
+            },
+            "Numerator": 50,
+            "Denominator": 1,
+            "Decimal": 51.0
+          },
+          {
+            "Id": 300000129,
+            "TradingStatus": "Trading",
+            "Name": "Pune City Women 1-0",
+            "CompetitorId": 967577,
+            "Range": {
+              "High": 1.0,
+              "Low": 0.0
+            },
+            "Numerator": 7,
+            "Denominator": 1,
+            "Decimal": 8.0
+          },
+          {
+            "Id": 300000130,
+            "TradingStatus": "Trading",
+            "Name": "Pune City Women 2-0",
+            "CompetitorId": 967577,
+            "Range": {
+              "High": 2.0,
+              "Low": 0.0
+            },
+            "Numerator": 12,
+            "Denominator": 1,
+            "Decimal": 13.0
+          },
+          {
+            "Id": 300000133,
+            "TradingStatus": "Trading",
+            "Name": "Pune City Women 2-1",
+            "CompetitorId": 967577,
+            "Range": {
+              "High": 2.0,
+              "Low": 1.0
+            },
+            "Numerator": 9,
+            "Denominator": 1,
+            "Decimal": 10.0
+          },
+          {
+            "Id": 300000131,
+            "TradingStatus": "Trading",
+            "Name": "Pune City Women 3-0",
+            "CompetitorId": 967577,
+            "Range": {
+              "High": 3.0,
+              "Low": 0.0
+            },
+            "Numerator": 25,
+            "Denominator": 1,
+            "Decimal": 26.0
+          },
+          {
+            "Id": 300000134,
+            "TradingStatus": "Trading",
+            "Name": "Pune City Women 3-1",
+            "CompetitorId": 967577,
+            "Range": {
+              "High": 3.0,
+              "Low": 1.0
+            },
+            "Numerator": 18,
+            "Denominator": 1,
+            "Decimal": 19.0
+          },
+          {
+            "Id": 300000137,
+            "TradingStatus": "Trading",
+            "Name": "Pune City Women 3-2",
+            "CompetitorId": 967577,
+            "Range": {
+              "High": 3.0,
+              "Low": 2.0
+            },
+            "Numerator": 25,
+            "Denominator": 1,
+            "Decimal": 26.0
+          },
+          {
+            "Id": 300000132,
+            "TradingStatus": "Trading",
+            "Name": "Pune City Women 4-0",
+            "CompetitorId": 967577,
+            "Range": {
+              "High": 4.0,
+              "Low": 0.0
+            },
+            "Numerator": 50,
+            "Denominator": 1,
+            "Decimal": 51.0
+          },
+          {
+            "Id": 300000135,
+            "TradingStatus": "Trading",
+            "Name": "Pune City Women 4-1",
+            "CompetitorId": 967577,
+            "Range": {
+              "High": 4.0,
+              "Low": 1.0
+            },
+            "Numerator": 50,
+            "Denominator": 1,
+            "Decimal": 51.0
+          },
+          {
+            "Id": 300000138,
+            "TradingStatus": "Trading",
+            "Name": "Pune City Women 4-2",
+            "CompetitorId": 967577,
+            "Range": {
+              "High": 4.0,
+              "Low": 2.0
+            },
+            "Numerator": 66,
+            "Denominator": 1,
+            "Decimal": 67.0
+          },
+          {
+            "Id": 300000139,
+            "TradingStatus": "Trading",
+            "Name": "Pune City Women 4-3",
+            "CompetitorId": 967577,
+            "Range": {
+              "High": 4.0,
+              "Low": 3.0
+            },
+            "Numerator": 100,
+            "Denominator": 1,
+            "Decimal": 101.0
+          },
+          {
+            "Id": 300000136,
+            "TradingStatus": "Trading",
+            "Name": "Pune City Women 5-1",
+            "CompetitorId": 967577,
+            "Range": {
+              "High": 5.0,
+              "Low": 1.0
+            },
+            "Numerator": 100,
+            "Denominator": 1,
+            "Decimal": 101.0
+          }
+        ]
+      }
+    ]
+  }
+}

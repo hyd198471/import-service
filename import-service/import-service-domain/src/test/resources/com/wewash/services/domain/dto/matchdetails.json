@@ -1,0 +1,191 @@
+{
+  "Header": {
+    "MessageGuid": "878ec66f-2e5a-424c-b23e-ab573df3c80a",
+    "TimeStampUtc": "2017-01-31T08:47:14.0414083Z",
+    "Retry": 0
+  },
+  "FootballMatchDetails": {
+    "CustomerId": 7238,
+    "FixtureId": "4427055",
+    "MatchActions": {
+      "Goals": {
+        "Goals": [],
+        "IsCollected": true,
+        "IsReliable": true
+      },
+      "YellowCards": {
+        "MatchActions": [],
+        "IsCollected": true,
+        "IsReliable": true
+      },
+      "SecondYellowCards": {
+        "MatchActions": [],
+        "IsCollected": false,
+        "IsReliable": true
+      },
+      "StraightRedCards": {
+        "MatchActions": [],
+        "IsCollected": true,
+        "IsReliable": true
+      },
+      "Substitutions": {
+        "Substitutions": [],
+        "IsCollected": true,
+        "IsReliable": true
+      },
+      "ShotsOnTarget": {
+        "MatchActions": [],
+        "IsCollected": false,
+        "IsReliable": true
+      },
+      "ShotsOffTarget": {
+        "MatchActions": [],
+        "IsCollected": false,
+        "IsReliable": true
+      },
+      "ShotsOffWoodwork": {
+        "ShotsOffWoodwork": [],
+        "IsCollected": false,
+        "IsReliable": true
+      },
+      "BlockedShots": {
+        "MatchActions": [],
+        "IsCollected": false,
+        "IsReliable": true
+      },
+      "Corners": {
+        "MatchActions": [],
+        "IsCollected": true,
+        "IsReliable": true
+      },
+      "PenaltiesAwarded": {
+        "MatchActions": [],
+        "IsCollected": false,
+        "IsReliable": true
+      },
+      "Fouls": {
+        "Fouls": [{
+          "Phase":"FirstHalf",
+          "TimeElapsedInPhase":"00:11:10.1270000",
+          "FoulingTeam":"Away",
+          "IsConfirmed":true
+        }],
+        "IsCollected": false,
+        "IsReliable": true
+      },
+      "Offsides": {
+        "MatchActions": [],
+        "IsCollected": false,
+        "IsReliable": true
+      },
+      "GoalKicks": {
+        "MatchActions": [],
+        "IsCollected": false,
+        "IsReliable": true
+      },
+      "MissedPenalties": {
+        "MatchActions": [],
+        "IsCollected": false,
+        "IsReliable": true
+      },
+      "ThrowIns": {
+        "MatchActions": [],
+        "IsCollected": false,
+        "IsReliable": true
+      },
+      "StoppageTimeAnnouncements": {
+        "StoppageTimeAnnouncements": [],
+        "IsCollected": false,
+        "IsReliable": true
+      },
+      "PhaseChanges": {
+        "PhaseChanges": [
+          {
+            "PreviousPhase": "PreMatch",
+            "CurrentPhase": "PreMatch",
+            "CurrentPhaseStartTime": "2017-01-31T08:45:58.148Z",
+            "IsConfirmed": true,
+            "MessageId": null,
+            "Message": null
+          },
+          {
+            "PreviousPhase": "PreMatch",
+            "CurrentPhase": "FirstHalf",
+            "CurrentPhaseStartTime": "2017-01-31T08:46:16.514Z",
+            "IsConfirmed": true,
+            "MessageId": null,
+            "Message": null
+          },
+          {
+            "PreviousPhase": "FirstHalf",
+            "CurrentPhase": "HalfTime",
+            "CurrentPhaseStartTime": "2017-01-31T08:47:06.295Z",
+            "IsConfirmed": true,
+            "MessageId": null,
+            "Message": null
+          },
+          {
+            "PreviousPhase": "HalfTime",
+            "CurrentPhase": "SecondHalf",
+            "CurrentPhaseStartTime": "2017-01-31T08:47:14.027Z",
+            "IsConfirmed": true,
+            "MessageId": null,
+            "Message": null
+          }
+        ],
+        "IsCollected": true,
+        "IsReliable": true
+      },
+      "DangerStateChanges": {
+        "DangerStateChanges": [],
+        "IsCollected": false,
+        "IsReliable": true
+      },
+      "LineupUpdates": {
+        "Updates": [],
+        "IsCollected": false,
+        "IsReliable": true
+      },
+      "ClockActions": {
+        "ClockActions": [{
+          "Phase":"FirstHalf",
+          "TimeElapsedInPhase":"00:18:17.1270000",
+          "TimestampUtc":"2015-10-09T10:12:11.001Z",
+          "ActivityType":"Home",
+          "IsClockRunning":true,
+          "IsConfirmed":true
+        }],
+        "IsCollected": false,
+        "IsReliable": true
+      },
+      "BookingStateChanges": {
+        "BookingStateChanges": [],
+        "IsCollected": false,
+        "IsReliable": true
+      },
+      "SystemMessages": {
+        "SystemMessages": [],
+        "IsCollected": false,
+        "IsReliable": false
+      }
+    },
+    "AwayTeam": {
+      "Id": "583842",
+      "Name": "Al-Ittihad Jeddah U20",
+      "Strip": null
+    },
+    "HomeTeam": {
+      "Id": "768294",
+      "Name": "Al Adalh U20",
+      "Strip": null
+    },
+    "IsSecondLeg": false,
+    "FirstLegScore": null,
+    "NormalTimeHalfDuration": "00:45:00",
+    "ExtraTimeHalfDuration": "00:15:00",
+    "CanGoToExtraTime": false,
+    "CanGoStraightToPenaltiesAfterNormalTime": false,
+    "CanGoToPenalties": false,
+    "MessageTimestampUtc": "2017-01-31T08:47:14.029Z"
+  }
+}

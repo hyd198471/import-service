@@ -22,7 +22,7 @@ jar {
 
 
 dependencies {
-    compile project(':import-service-core')
+    compile project(':import-service-domain')
     compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
     compile("org.springframework.boot:spring-boot-starter-web")
     compile("org.springframework.boot:spring-boot-starter-jetty")

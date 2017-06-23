@@ -1,0 +1,71 @@
+{
+  "Header": {
+    "MessageGuid": "42dbc573-89f4-4cb1-b958-3b031b8974f5",
+    "TimeStampUtc": "2017-01-30T17:23:38.5394755Z",
+    "Retry": 0,
+    "CustomerId": 13
+  },
+  "Fixture": {
+    "Id": 4426027,
+    "Name": "Jong Go Ahead Eagles v Jong Fortuna Sittard",
+    "FixtureType": "Match",
+    "Status": "Scheduled",
+    "StartTimeUtc": "2017-01-30T17:30:00Z",
+    "Sport": {
+      "Id": 10,
+      "Name": "Football"
+    },
+    "Competition": {
+      "Id": 3504,
+      "Name": "Beloften Eerste Divisie",
+      "Region": {
+        "Id": 241,
+        "Name": "Netherlands"
+      },
+      "Gender": "Mixed"
+    },
+    "Season": {
+      "Id": 57049,
+      "Name": "Beloften Eerste Divisie 2016-2017"
+    },
+    "TourSeason": {
+      "Id": 57049,
+      "Name": "Beloften Eerste Divisie 2016-2017"
+    },
+    "Round": {
+      "Id": 316977,
+      "Name": "January"
+    },
+    "Competitors": [
+      {
+        "Id": 475949,
+        "Name": "Jong Go Ahead Eagles",
+        "HomeAway": "Home",
+        "Gender": "Male",
+        "CompetitorType": "Team"
+      },
+      {
+        "Id": 475953,
+        "Name": "Jong Fortuna Sittard",
+        "HomeAway": "Away",
+        "Gender": "Male",
+        "CompetitorType": "Team",
+        "Competitors": [{
+          "Id": 23234325,
+          "Name": "Minella, M",
+          "HomeAway": "Away",
+          "FirstName": "Mandy",
+          "LastName": "Minella",
+          "SquadNumber": "34",
+          "Position": "Midfield"
+        }]
+      }
+    ],
+    "AggregateEventInfo": {
+      "CurrentHomeTeamFirstLegScore": 1,
+      "CurrentAwayTeamFirstLegScore": 2
+    },
+    "ExternalId": "running-ball",
+    "AssociationFixtureId": "12341245"
+  }
+}

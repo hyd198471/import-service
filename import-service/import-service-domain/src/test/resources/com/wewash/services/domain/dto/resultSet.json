@@ -1,0 +1,60 @@
+{
+  "Header": {
+    "MessageGuid": "80d740eb-d3bf-4868-a972-89c19538ba62",
+    "TimeStampUtc": "2017-02-06T20:54:03.9519031Z",
+    "Retry": 0
+  },
+  "ResultSet": {
+    "FixtureId": 4430951,
+    "Results": [
+      {
+        "MarketId": 100000146,
+        "MarketSequence": 0,
+        "Results": [
+          {
+            "SelectionId": 300000485,
+            "ResultStatus": "Loser",
+            "AdditionalResultData": {
+              "PercentageWin": 50,
+              "PercentagePush": 50,
+              "Place": 0,
+              "CountInPlace": 1
+            }
+          },
+          {
+            "SelectionId": 300000486,
+            "ResultStatus": "Loser"
+          },
+          {
+            "SelectionId": 300000487,
+            "ResultStatus": "Loser"
+          },
+          {
+            "SelectionId": 300000488,
+            "ResultStatus": "Loser"
+          },
+          {
+            "SelectionId": 300000489,
+            "ResultStatus": "Loser"
+          },
+          {
+            "SelectionId": 300000490,
+            "ResultStatus": "Loser"
+          },
+          {
+            "SelectionId": 300000491,
+            "ResultStatus": "Loser"
+          },
+          {
+            "SelectionId": 300000492,
+            "ResultStatus": "Loser"
+          },
+          {
+            "SelectionId": 300000493,
+            "ResultStatus": "Winner"
+          }
+        ]
+      }
+    ]
+  }
+}
