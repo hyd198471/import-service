@@ -22,10 +22,43 @@ jar {
 
 
 dependencies {
+    //project dependencies
     compile project(':import-service-domain')
+
+    //external library dependencies
     compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
+    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot
+    compile group: 'org.springframework.boot', name: 'spring-boot', version: '1.5.3.RELEASE'
     compile("org.springframework.boot:spring-boot-starter-web")
     compile("org.springframework.boot:spring-boot-starter-jetty")
     compile("org.springframework.boot:spring-boot-starter-actuator")
+
+    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-jpa', version: '1.5.4.RELEASE'
+
+    // https://mvnrepository.com/artifact/com.netflix.feign/feign-core
+    runtime group: 'com.netflix.feign', name: 'feign-core', version: '8.18.0'
+
+    // https://mvnrepository.com/artifact/com.netflix.feign/feign-jackson
+    compile group: 'com.netflix.feign', name: 'feign-jackson', version: '8.18.0'
+
+    // https://mvnrepository.com/artifact/com.netflix.feign/feign-slf4j
+    compile group: 'com.netflix.feign', name: 'feign-slf4j', version: '8.18.0'
+
+    //test dependencies
+    // https://mvnrepository.com/artifact/org.springframework/spring-test
+    testCompile group: 'org.springframework', name: 'spring-test', version: '4.3.9.RELEASE'
+
+    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-test
+    testCompile group: 'org.springframework.boot', name: 'spring-boot-starter-test', version: '1.5.4.RELEASE'
+
+    // https://mvnrepository.com/artifact/info.cukes/cucumber-spring
+    testCompile group: 'info.cukes', name: 'cucumber-spring', version: '1.2.5'
+
+    // https://mvnrepository.com/artifact/info.cukes/cucumber-junit
+    testCompile group: 'info.cukes', name: 'cucumber-junit', version: '1.2.5'
+
     testCompile group: 'junit', name: 'junit', version: '4.12'
+
+
 }
