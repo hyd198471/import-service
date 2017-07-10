@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:mhydb;DB_CLOSE_ON_EXIT=FALSE;INIT=CREATE SCHEMA IF NOT EXISTS import_service\; SET SCHEMA import_service
+    username: sa
+    password:

@@ -29,7 +29,7 @@ public class IntegrationController {
 
     private final FileAuditor fileAuditor;
 
-    @Value("${debug-option.processing-enabled}")
+    @Value("${debug-options.processing-enabled}")
     private boolean processingEnabled;
 
     @Autowired

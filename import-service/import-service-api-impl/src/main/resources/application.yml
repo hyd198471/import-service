@@ -1,0 +1,51 @@
+spring:
+  application:
+    name: import-service
+  datasource:
+    defaultAutoCommit: false
+    validationQuery: SELECT 1
+    testWhileIdle: true
+    timeBetweenEvictionRunsMillis: 300000
+    initialSize: 10
+    maxActive: 20
+    maxIdle: 10
+  jpa:
+    hibernate:
+      ddl-auto: none
+    generate-ddl: false
+
+server:
+  port: 8888
+
+logging:
+  file: logs/import-service.log
+  level:
+    com.wewash: DEBUG
+
+info:
+  build:
+    artifact: ${project.artifactId}
+    name: ${project.name}
+    description: ${project.description}
+    version: ${project.version}
+
+message-audit:
+  audit-dir: audit/messages
+  audit-enabled: true
+
+debug-options:
+  processing-enabled: true
+  publishing-enabled: false
+  store-intermediate-snapshots: false
+
+
+management:
+  context-path: /-system
+  security:
+    enabled: true
+
+endpoints:
+  health:
+    sensitive: false
+  info:
+    sensitive: false

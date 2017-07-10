@@ -45,6 +45,9 @@ dependencies {
     // https://mvnrepository.com/artifact/com.netflix.feign/feign-slf4j
     compile group: 'com.netflix.feign', name: 'feign-slf4j', version: '8.18.0'
 
+    // https://mvnrepository.com/artifact/com.h2database/h2
+    compile group: 'com.h2database', name: 'h2', version: '1.4.196'
+
     //test dependencies
     // https://mvnrepository.com/artifact/org.springframework/spring-test
     testCompile group: 'org.springframework', name: 'spring-test', version: '4.3.9.RELEASE'
