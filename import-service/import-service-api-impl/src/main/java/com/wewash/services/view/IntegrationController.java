@@ -2,6 +2,7 @@ package com.wewash.services.view;
 
 
 import com.wewash.services.audit.FileAuditor;
+import com.wewash.services.domain.messageloggers.MessageLoggerDispatcher;
 import org.apache.commons.io.IOUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -29,24 +30,30 @@ public class IntegrationController {
 
     private final FileAuditor fileAuditor;
 
+    private final MessageLoggerDispatcher messageLoggerDispatcher;
+
     @Value("${debug-options.processing-enabled}")
     private boolean processingEnabled;
 
     @Autowired
-    public IntegrationController(FileAuditor fileAuditor) {
+    public IntegrationController(FileAuditor fileAuditor, MessageLoggerDispatcher messageLoggerDispatcher) {
         this.fileAuditor = fileAuditor;
+        this.messageLoggerDispatcher = messageLoggerDispatcher;
     }
 
     @RequestMapping(method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
     @ResponseStatus(value = HttpStatus.ACCEPTED)
     public void receiveRequest(HttpServletRequest request) throws IOException{
-        ServletInputStream inputStream = request.getInputStream();
-        String jsonContent = IOUtils.toString(inputStream, StandardCharsets.UTF_8);
-        fileAuditor.auditMessage(jsonContent);
+        try(ServletInputStream inputStream = request.getInputStream()) {
+            String incomingJson = IOUtils.toString(inputStream, StandardCharsets.UTF_8);
+            fileAuditor.auditMessage(incomingJson);
 
-        if(!processingEnabled) {
-            return;
+            if(!processingEnabled) {
+                return;
+            }
+            messageLoggerDispatcher.process(incomingJson);
         }
+
 
 
 

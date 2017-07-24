@@ -16,13 +16,10 @@ import java.util.UUID;
 public class PoisonAuditLog {
 
     @Id
-    @GeneratedValue(generator = "UUID")
-    @GenericGenerator(
-            name = "UUID",
-            strategy = "org.hibernate.id.UUIDGenerator"
-    )
-    @Column(name = "id", updatable = false, nullable = false)
-    private UUID id;
+    @GenericGenerator(name = "uuid2", strategy = "uuid2")
+    @GeneratedValue(generator = "uuid2")
+    @Column(columnDefinition = "BINARY(16)")
+    private UUID uuid;
 
     @Column(name = "incoming_message", nullable = false)
     @Lob
@@ -34,14 +31,6 @@ public class PoisonAuditLog {
     @Column(name = "exception_message", nullable = false)
     @Lob
     private String exceptionMessage;
-
-    public UUID getId() {
-        return id;
-    }
-
-    public void setId(UUID id) {
-        this.id = id;
-    }
 
     public String getIncomingMessage() {
         return incomingMessage;
@@ -57,6 +46,14 @@ public class PoisonAuditLog {
 
     public void setIncomingMessageReceived(Date incomingMessageReceived) {
         this.incomingMessageReceived = incomingMessageReceived;
+    }
+
+    public UUID getUuid() {
+        return uuid;
+    }
+
+    public void setUuid(UUID uuid) {
+        this.uuid = uuid;
     }
 
     public String getExceptionMessage() {
