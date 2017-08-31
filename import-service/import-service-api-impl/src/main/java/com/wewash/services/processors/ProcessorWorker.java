@@ -7,7 +7,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Async;
+import org.springframework.scheduling.annotation.AsyncResult;
 import org.springframework.stereotype.Component;
+import org.springframework.transaction.support.TransactionTemplate;
 
 import javax.annotation.PostConstruct;
 import java.util.EnumMap;
@@ -23,6 +25,10 @@ public class ProcessorWorker implements AsyncWorker<Long> {
     @Autowired
     private List<MessageProcessor> messageProcessors;
 
+    @Autowired
+    private TransactionTemplate transactionTemplate;
+
+
     private final Map<MessageType, MessageProcessor> messageProcessorMap = new EnumMap<>(MessageType.class);
 
 
@@ -34,7 +40,10 @@ public class ProcessorWorker implements AsyncWorker<Long> {
 
     @Override
     @Async("processorThreadPool")
-    public Future<Long> executeWorkAsync(Long aLong, QueueWrapper<Long> queue) {
-        return null;
+    public Future<Long> executeWorkAsync(Long fixtureId, QueueWrapper<Long> queue) {
+        return new AsyncResult<>(fixtureId);
     }
+
+
+
 }

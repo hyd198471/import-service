@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url:  jdbc:mariadb://${database.host}:${database.port}/${database.schema}?connectTimeout=1000
+    username: ${database.login}
+    password: ${database.password}
+
+# database need to be changed to betbrain database on kickers
+database:
+  login: betbrain
+  password: B00Xware
+  host: localhost
+  port: 3306
+  schema: import_service
+  admin:
+    login: betbrain_admin
+    password: B00Xware

@@ -51,6 +51,18 @@ dependencies {
     // https://mvnrepository.com/artifact/com.google.guava/guava
     compile group: 'com.google.guava', name: 'guava', version: '22.0'
 
+    compile "org.flywaydb:flyway-core:4.2.0"
+
+    // https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient
+    compile group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.3'
+
+    // https://mvnrepository.com/artifact/javax.ws.rs/javax.ws.rs-api
+    compile group: 'javax.ws.rs', name: 'javax.ws.rs-api', version: '2.1'
+
+
+    // https://mvnrepository.com/artifact/org.springframework.security/spring-security-config
+    compile group: 'org.springframework.security', name: 'spring-security-config', version: '4.2.3.RELEASE'
+
     //test dependencies
     // https://mvnrepository.com/artifact/org.springframework/spring-test
     testCompile group: 'org.springframework', name: 'spring-test', version: '4.3.9.RELEASE'

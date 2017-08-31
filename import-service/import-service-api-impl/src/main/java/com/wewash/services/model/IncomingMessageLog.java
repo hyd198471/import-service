@@ -1,5 +1,6 @@
 package com.wewash.services.model;
 
+import com.google.common.base.Objects;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.Column;
@@ -15,7 +16,7 @@ import java.util.UUID;
 
 @Entity
 @Table(name = "message_log")
-public class IncomingMessage {
+public class IncomingMessageLog {
 
     @Id
     @GenericGenerator(name = "uuid2", strategy = "uuid2")
@@ -81,19 +82,19 @@ public class IncomingMessage {
     }
 
     public Date getIncomingMessageReceived() {
-        return incomingMessageReceived;
+        return new Date(incomingMessageReceived.getTime());
     }
 
     public void setIncomingMessageReceived(Date incomingMessageReceived) {
-        this.incomingMessageReceived = incomingMessageReceived;
+        this.incomingMessageReceived = new Date(incomingMessageReceived.getTime());
     }
 
     public Date getProcessedAt() {
-        return processedAt;
+        return new Date(processedAt.getTime());
     }
 
     public void setProcessedAt(Date processedAt) {
-        this.processedAt = processedAt;
+        this.processedAt = new Date(processedAt.getTime());
     }
 
     public Boolean getProcessed() {
@@ -129,11 +130,11 @@ public class IncomingMessage {
     }
 
     public Date getBgHeaderTimestamp() {
-        return bgHeaderTimestamp;
+        return new Date(bgHeaderTimestamp.getTime());
     }
 
     public void setBgHeaderTimestamp(Date bgHeaderTimestamp) {
-        this.bgHeaderTimestamp = bgHeaderTimestamp;
+        this.bgHeaderTimestamp = new Date(bgHeaderTimestamp.getTime());
     }
 
     public UUID getUuid() {
@@ -142,5 +143,32 @@ public class IncomingMessage {
 
     public void setUuid(UUID uuid) {
         this.uuid = uuid;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) {
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
+        IncomingMessageLog that = (IncomingMessageLog) o;
+        return Objects.equal(fixtureId, that.fixtureId) &&
+                messageType == that.messageType &&
+                Objects.equal(incomingMessage, that.incomingMessage) &&
+                Objects.equal(incomingMessageReceived, that.incomingMessageReceived) &&
+                Objects.equal(processedAt, that.processedAt) &&
+                Objects.equal(processed, that.processed) &&
+                Objects.equal(processedByInstance, that.processedByInstance) &&
+                Objects.equal(processedByRequest, that.processedByRequest) &&
+                Objects.equal(generatedSnapshot, that.generatedSnapshot) &&
+                Objects.equal(bgHeaderTimestamp, that.bgHeaderTimestamp);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hashCode(fixtureId, messageType, incomingMessage, incomingMessageReceived, processedAt,
+                processed, processedByInstance, processedByRequest, generatedSnapshot, bgHeaderTimestamp);
     }
 }

@@ -1,21 +1,23 @@
 package com.wewash.services.model;
 
-import org.hibernate.annotations.GenericGenerator;
+import com.google.common.base.Objects;
 
-import javax.persistence.*;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Lob;
+import javax.persistence.Table;
+import javax.persistence.Version;
 import javax.validation.constraints.Max;
 import java.util.Date;
-import java.util.UUID;
 
 @Entity
 @Table(name = "fixture_snapshot")
 public class FixtureSnapshot {
 
     @Id
-    @GenericGenerator(name = "uuid2", strategy = "uuid2")
-    @GeneratedValue(generator = "uuid2")
-    @Column(columnDefinition = "BINARY(16)")
-    private UUID uuid;
+    @Column(name = "id")
+    private Long id;
 
     @Version
     private Long version;
@@ -40,12 +42,12 @@ public class FixtureSnapshot {
     @Max(message = "section_number is stored as a tinyint - up to 127", value = 127)
     private Integer sectionNumber;
 
-    public UUID getUuid() {
-        return uuid;
+    public Long getId() {
+        return id;
     }
 
-    public void setUuid(UUID uuid) {
-        this.uuid = uuid;
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public Long getVersion() {
@@ -65,19 +67,19 @@ public class FixtureSnapshot {
     }
 
     public Date getUpdateTime() {
-        return updateTime;
+        return new Date(updateTime.getTime());
     }
 
     public void setUpdateTime(Date updateTime) {
-        this.updateTime = updateTime;
+        this.updateTime = new Date(updateTime.getTime());
     }
 
     public Date getPublishedAt() {
-        return publishedAt;
+        return new Date(publishedAt.getTime());
     }
 
     public void setPublishedAt(Date publishedAt) {
-        this.publishedAt = publishedAt;
+        this.publishedAt = new Date(publishedAt.getTime());
     }
 
     public Boolean getPublished() {
@@ -89,11 +91,11 @@ public class FixtureSnapshot {
     }
 
     public Date getBgHeaderTimestamp() {
-        return bgHeaderTimestamp;
+        return new Date(bgHeaderTimestamp.getTime());
     }
 
     public void setBgHeaderTimestamp(Date bgHeaderTimestamp) {
-        this.bgHeaderTimestamp = bgHeaderTimestamp;
+        this.bgHeaderTimestamp = new Date(bgHeaderTimestamp.getTime());
     }
 
     public Integer getSectionNumber() {
@@ -102,5 +104,27 @@ public class FixtureSnapshot {
 
     public void setSectionNumber(Integer sectionNumber) {
         this.sectionNumber = sectionNumber;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) {
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
+        FixtureSnapshot that = (FixtureSnapshot) o;
+        return Objects.equal(snapshotJson, that.snapshotJson) &&
+                Objects.equal(updateTime, that.updateTime) &&
+                Objects.equal(publishedAt, that.publishedAt) &&
+                Objects.equal(published, that.published) &&
+                Objects.equal(bgHeaderTimestamp, that.bgHeaderTimestamp) &&
+                Objects.equal(sectionNumber, that.sectionNumber);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hashCode(snapshotJson, updateTime, publishedAt, published, bgHeaderTimestamp, sectionNumber);
     }
 }

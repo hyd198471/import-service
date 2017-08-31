@@ -1,25 +1,21 @@
 package com.wewash.services.model;
 
-import org.hibernate.annotations.GenericGenerator;
+import com.google.common.base.Objects;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Lob;
 import javax.persistence.Table;
 import java.util.Date;
-import java.util.UUID;
 
 @Entity
 @Table(name = "poison_audit_log")
 public class PoisonAuditLog {
 
     @Id
-    @GenericGenerator(name = "uuid2", strategy = "uuid2")
-    @GeneratedValue(generator = "uuid2")
-    @Column(columnDefinition = "BINARY(16)")
-    private UUID uuid;
+    @Column(name = "id")
+    private Long id;
 
     @Column(name = "incoming_message", nullable = false)
     @Lob
@@ -41,19 +37,19 @@ public class PoisonAuditLog {
     }
 
     public Date getIncomingMessageReceived() {
-        return incomingMessageReceived;
+        return new Date(incomingMessageReceived.getTime());
     }
 
     public void setIncomingMessageReceived(Date incomingMessageReceived) {
-        this.incomingMessageReceived = incomingMessageReceived;
+        this.incomingMessageReceived = new Date(incomingMessageReceived.getTime());
     }
 
-    public UUID getUuid() {
-        return uuid;
+    public Long getId() {
+        return id;
     }
 
-    public void setUuid(UUID uuid) {
-        this.uuid = uuid;
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getExceptionMessage() {
@@ -62,5 +58,24 @@ public class PoisonAuditLog {
 
     public void setExceptionMessage(String exceptionMessage) {
         this.exceptionMessage = exceptionMessage;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) {
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
+        PoisonAuditLog that = (PoisonAuditLog) o;
+        return Objects.equal(incomingMessage, that.incomingMessage) &&
+                Objects.equal(incomingMessageReceived, that.incomingMessageReceived) &&
+                Objects.equal(exceptionMessage, that.exceptionMessage);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hashCode(incomingMessage, incomingMessageReceived, exceptionMessage);
     }
 }

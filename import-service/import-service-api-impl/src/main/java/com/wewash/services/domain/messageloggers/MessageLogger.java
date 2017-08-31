@@ -2,9 +2,9 @@ package com.wewash.services.domain.messageloggers;
 
 import com.wewash.services.domain.dto.BaseMessage;
 import com.wewash.services.domain.mapper.MessageMapper;
-import com.wewash.services.model.IncomingMessage;
+import com.wewash.services.model.IncomingMessageLog;
 import com.wewash.services.model.MessageType;
-import com.wewash.services.processors.ProcessorQueue;
+import com.wewash.services.queue.QueueWrapper;
 import com.wewash.services.repository.MessageLogRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -25,10 +25,10 @@ public abstract class MessageLogger<T extends BaseMessage> {
     private MessageLogRepository messageLogRepository;
 
     @Autowired
-    private ProcessorQueue processorQueue;
+    private QueueWrapper<Long> processorQueue;
 
     public final void logMessage(String messageString) {
-        IncomingMessage incomingMessage = generateMessageLog(messageString);
+        IncomingMessageLog incomingMessage = generateMessageLog(messageString);
         T message = readMessage(messageString);
 
         incomingMessage.setBgHeaderTimestamp(Date.from(message.getHeader().getTimeStampUtc().toInstant()));
@@ -44,8 +44,8 @@ public abstract class MessageLogger<T extends BaseMessage> {
 
     }
 
-    private IncomingMessage generateMessageLog(String message) {
-        IncomingMessage incomingMessage = new IncomingMessage();
+    private IncomingMessageLog generateMessageLog(String message) {
+        IncomingMessageLog incomingMessage = new IncomingMessageLog();
         incomingMessage.setIncomingMessage(message);
         incomingMessage.setIncomingMessageReceived(new Date());
         incomingMessage.setFixtureId(UNKNOWN_FIXTURE);
