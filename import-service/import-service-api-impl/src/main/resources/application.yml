@@ -17,6 +17,15 @@ spring:
     console:
       enabled: true
 
+bx:
+  security:
+    betgenius:
+      username: betgenius
+      password: betgenius123
+    actuator:
+      username: actuator
+      password: actuator123
+
 server:
   port: 8888
 
@@ -52,3 +61,14 @@ endpoints:
     sensitive: false
   info:
     sensitive: false
+
+
+send-configuration:
+    info-server-port: 12343
+    info-server-url: http://localhost:${send-configuration.info-server-port}
+    event-import-url: ${send-configuration.info-server-url}/event-import/v1/snapshots
+    user: admin
+    password: dummy
+    http-pool:
+      default-max-per-route: 20
+      max-pool-size: 200

@@ -1,7 +1,7 @@
 package com.wewash.services.infra.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.wewash.services.infra.send.EventDataPubilsher;
+import com.wewash.services.infra.send.EventDataPublisher;
 import feign.Feign;
 import feign.Logger;
 import feign.auth.BasicAuthRequestInterceptor;
@@ -16,16 +16,16 @@ import org.springframework.context.annotation.Configuration;
 public class ClientConfig {
 
     @Bean
-    public EventDataPubilsher eventDataPublisher(SendConfiguration config) {
+    public EventDataPublisher eventDataPublisher(SendConfiguration config) {
         ObjectMapper mapper = new ObjectMapper();
 
         return Feign.builder()
                 .encoder(new JacksonEncoder(mapper))
                 .decoder(new JacksonDecoder(mapper))
-                .logger(new Slf4jLogger(EventDataPubilsher.class))
+                .logger(new Slf4jLogger(EventDataPublisher.class))
                 .logLevel(Logger.Level.FULL)
                 .requestInterceptor(new BasicAuthRequestInterceptor(config.getUser(), config.getPassword()))
-                .target(EventDataPubilsher.class, config.getInfoServerUrl());
+                .target(EventDataPublisher.class, config.getInfoServerUrl());
     }
 
 

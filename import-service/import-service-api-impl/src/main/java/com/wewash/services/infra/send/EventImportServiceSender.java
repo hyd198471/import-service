@@ -7,11 +7,6 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.actuate.metrics.CounterService;
 import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Service;
-import org.springframework.util.StringUtils;
-
-import javax.ws.rs.client.Client;
-import javax.ws.rs.client.Entity;
-import javax.ws.rs.core.Response;
 
 @Service
 public class EventImportServiceSender {
@@ -23,7 +18,7 @@ public class EventImportServiceSender {
     private CounterService counterService;
 
     @Autowired
-    private Client sendClient;
+    private EventDataPublisher eventDataPubilsher;
 
     @Autowired
     private Environment environment;
@@ -42,7 +37,8 @@ public class EventImportServiceSender {
             return;
         }
         LOGGER.debug("sendJson JSON to {}", url);
-        Response response = sendClient.target(url).request().post(Entity.entity(jsonContent, MEDIA_TYPE_JSON_V1));
+        feign.Response response1 = eventDataPubilsher.pushSnapshotToEbet(jsonContent);
+      /*  Response response = sendClient.target(url).request().post(Entity.entity(jsonContent, MEDIA_TYPE_JSON_V1));
         int status = response.getStatus();
         LOGGER.debug("sendJson: Response status = {}", status);
         String responseBody = response.readEntity(String.class);
@@ -57,7 +53,7 @@ public class EventImportServiceSender {
             }
             throw new DownstreamSystemException(response.getStatusInfo().getReasonPhrase());
         }
-        counterService.increment("snapshots.publishing.successful");
+        counterService.increment("snapshots.publishing.successful");*/
     }
 
 }
