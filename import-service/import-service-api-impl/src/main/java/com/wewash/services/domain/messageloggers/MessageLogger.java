@@ -1,7 +1,7 @@
 package com.wewash.services.domain.messageloggers;
 
 import com.wewash.services.domain.dto.BaseMessage;
-import com.wewash.services.domain.mapper.MessageMapper;
+import com.wewash.services.domain.mapper.fixture.MessageMapper;
 import com.wewash.services.model.IncomingMessageLog;
 import com.wewash.services.model.MessageType;
 import com.wewash.services.queue.QueueWrapper;
@@ -27,7 +27,7 @@ public abstract class MessageLogger<T extends BaseMessage> {
     @Autowired
     private QueueWrapper<Long> processorQueue;
 
-    public final void logMessage(String messageString) {
+    final void logMessage(String messageString) {
         IncomingMessageLog incomingMessage = generateMessageLog(messageString);
         T message = readMessage(messageString);
 
@@ -54,9 +54,9 @@ public abstract class MessageLogger<T extends BaseMessage> {
         return incomingMessage;
     }
 
-    abstract protected long getFixtureId(T message);
+    protected abstract long getFixtureId(T message);
     abstract Class<T> getMessageClass();
     abstract MessageType getMessageType();
 
-    T readMessage(String message) { return messageMapper.readValue(message, getMessageClass());}
+    private T readMessage(String message) { return messageMapper.readValue(message, getMessageClass());}
 }

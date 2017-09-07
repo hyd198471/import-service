@@ -1,4 +1,4 @@
-package com.wewash.services.domain.mapper;
+package com.wewash.services.domain.mapper.fixture;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;

@@ -1,6 +1,6 @@
 package com.wewash.services.infra.send;
 
-import com.wewash.services.domain.ebet.dto.HeartBeatDTO;
+import com.wewash.services.domain.ebet.dto.heartbeat.HeartBeatDTO;
 import feign.Headers;
 import feign.RequestLine;
 import feign.Response;

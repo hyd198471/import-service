@@ -1,6 +1,6 @@
 package com.wewash.services.processors;
 
-import com.wewash.services.domain.mapper.MessageMapper;
+import com.wewash.services.domain.mapper.fixture.MessageMapper;
 import com.wewash.services.model.MessageType;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

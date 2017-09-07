@@ -72,3 +72,9 @@ send-configuration:
     http-pool:
       default-max-per-route: 20
       max-pool-size: 200
+
+service:
+    import-service:
+      providerId: 71
+      providerName: betgenius_v3
+      heartbeatForwardEnabled: false
