@@ -15,8 +15,8 @@ import java.util.Date;
 import java.util.UUID;
 
 @Entity
-@Table(name = "message_log")
-public class IncomingMessageLog {
+@Table(name = "incoming_message")
+public class IncomingMessage {
 
     @Id
     @GenericGenerator(name = "uuid2", strategy = "uuid2")
@@ -33,7 +33,7 @@ public class IncomingMessageLog {
 
     @Column(name = "incoming_message", nullable = false)
     @Lob
-    private String incomingMessage;
+    private String incomingMessageJson;
 
     @Column(name = "incoming_message_received", nullable = false)
     private Date incomingMessageReceived;
@@ -54,8 +54,8 @@ public class IncomingMessageLog {
     @Lob
     private String generatedSnapshot;
 
-    @Column(name = "bg_header_timestamp")
-    private Date bgHeaderTimestamp;
+    @Column(name = "header_timestamp")
+    private Date headerTimestamp;
 
     public Long getFixtureId() {
         return fixtureId;
@@ -73,12 +73,12 @@ public class IncomingMessageLog {
         this.messageType = messageType;
     }
 
-    public String getIncomingMessage() {
-        return incomingMessage;
+    public String getIncomingMessageJson() {
+        return incomingMessageJson;
     }
 
-    public void setIncomingMessage(String incomingMessage) {
-        this.incomingMessage = incomingMessage;
+    public void setIncomingMessageJson(String incomingMessageJson) {
+        this.incomingMessageJson = incomingMessageJson;
     }
 
     public Date getIncomingMessageReceived() {
@@ -129,12 +129,12 @@ public class IncomingMessageLog {
         this.generatedSnapshot = generatedSnapshot;
     }
 
-    public Date getBgHeaderTimestamp() {
-        return new Date(bgHeaderTimestamp.getTime());
+    public Date getHeaderTimestamp() {
+        return new Date(headerTimestamp.getTime());
     }
 
-    public void setBgHeaderTimestamp(Date bgHeaderTimestamp) {
-        this.bgHeaderTimestamp = new Date(bgHeaderTimestamp.getTime());
+    public void setHeaderTimestamp(Date headerTimestamp) {
+        this.headerTimestamp = new Date(headerTimestamp.getTime());
     }
 
     public UUID getUuid() {
@@ -153,22 +153,22 @@ public class IncomingMessageLog {
         if (o == null || getClass() != o.getClass()) {
             return false;
         }
-        IncomingMessageLog that = (IncomingMessageLog) o;
+        IncomingMessage that = (IncomingMessage) o;
         return Objects.equal(fixtureId, that.fixtureId) &&
                 messageType == that.messageType &&
-                Objects.equal(incomingMessage, that.incomingMessage) &&
+                Objects.equal(incomingMessageJson, that.incomingMessageJson) &&
                 Objects.equal(incomingMessageReceived, that.incomingMessageReceived) &&
                 Objects.equal(processedAt, that.processedAt) &&
                 Objects.equal(processed, that.processed) &&
                 Objects.equal(processedByInstance, that.processedByInstance) &&
                 Objects.equal(processedByRequest, that.processedByRequest) &&
                 Objects.equal(generatedSnapshot, that.generatedSnapshot) &&
-                Objects.equal(bgHeaderTimestamp, that.bgHeaderTimestamp);
+                Objects.equal(headerTimestamp, that.headerTimestamp);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hashCode(fixtureId, messageType, incomingMessage, incomingMessageReceived, processedAt,
-                processed, processedByInstance, processedByRequest, generatedSnapshot, bgHeaderTimestamp);
+        return Objects.hashCode(fixtureId, messageType, incomingMessageJson, incomingMessageReceived, processedAt,
+                processed, processedByInstance, processedByRequest, generatedSnapshot, headerTimestamp);
     }
 }
