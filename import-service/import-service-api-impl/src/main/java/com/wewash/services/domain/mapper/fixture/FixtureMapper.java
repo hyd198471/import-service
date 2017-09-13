@@ -6,11 +6,12 @@ import com.wewash.services.domain.ebet.dto.common.MessageHeaderDTO;
 import com.wewash.services.domain.ebet.dto.event.EventDTO;
 import com.wewash.services.domain.mapper.ProviderMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import java.time.OffsetDateTime;
 import java.util.Date;
 import java.util.List;
-
+@Component
 public class FixtureMapper {
     private ProviderMapper providerMapper;
 

@@ -16,7 +16,7 @@ public interface IncomingMessageRepository extends JpaRepository<IncomingMessage
 
 
     @Lock(LockModeType.PESSIMISTIC_WRITE)
-    List<IncomingMessage> findByFixtureIdAndHeaderTimestampGreaterThanEqualOrderByBgHeaderTimestamp(
-            long fixtureId, Date bgHeaderTimestamp);
+    List<IncomingMessage> findByFixtureIdAndHeaderTimestampGreaterThanEqualOrderByHeaderTimestamp(
+            long fixtureId, Date headerTimestamp);
 
 }

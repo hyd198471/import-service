@@ -233,7 +233,7 @@ public class ProcessorWorker implements AsyncWorker<Long> {
                                                             FixtureSnapshot fixtureSnapshot,
                                                             EventDTO currentEventDto, long requestNumber) {
         List<IncomingMessage> reprocessMessages =
-                incomingMessageRepository.findByFixtureIdAndHeaderTimestampGreaterThanEqualOrderByBgHeaderTimestamp(fixtureId, headerTimestamp);
+                incomingMessageRepository.findByFixtureIdAndHeaderTimestampGreaterThanEqualOrderByHeaderTimestamp(fixtureId, headerTimestamp);
 
         fixtureSnapshot.setBgHeaderTimestamp(headerTimestamp);
 
