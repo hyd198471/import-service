@@ -1,11 +1,11 @@
 package com.wewash.services.processors;
 
 import com.google.common.collect.Sets;
-import com.wewash.services.domain.dto.fixture.Event;
-import com.wewash.services.domain.ebet.dto.event.EventDTO;
-import com.wewash.services.domain.mapper.fixture.FixtureMapper;
-import com.wewash.services.domain.mapper.fixture.MessageMapper;
-import com.wewash.services.domain.mapper.fixture.SportMapper;
+import com.wewash.services.dto.fixture.Event;
+import com.wewash.services.ebet.dto.event.EventDTO;
+import com.wewash.services.mapper.fixture.FixtureMapper;
+import com.wewash.services.mapper.MessageMapper;
+import com.wewash.services.mapper.fixture.SportMapper;
 import com.wewash.services.model.MessageType;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -36,7 +36,7 @@ public class EventFixtureMessageProcessor extends MessageProcessor<Event> {
     @Override
     protected EventDTO update(Event event, EventDTO eventDTO) {
         validateSportSupported(event);
-        eventDTO = fixtureMapper.convertBetgeniusEventToEbetEvent(event, eventDTO);
+        eventDTO = fixtureMapper.convertImportEventToEbetEvent(event, eventDTO);
         return eventDTO;
     }
 

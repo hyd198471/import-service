@@ -1,9 +1,9 @@
 package com.wewash.services.domain.dto
 
-import com.wewash.services.domain.dto.fixture.Event
-import com.wewash.services.domain.dto.marketset.MarketSetMessage
-import com.wewash.services.domain.dto.matchdetails.FootballMatchDetailsMessage
-import com.wewash.services.domain.dto.resultset.ResultSetMessage
+import com.wewash.services.dto.fixture.Event
+import com.wewash.services.dto.marketset.MarketSetMessage
+import com.wewash.services.dto.matchdetails.FootballMatchDetailsMessage
+import com.wewash.services.dto.resultset.ResultSetMessage
 import spock.lang.Specification
 
 

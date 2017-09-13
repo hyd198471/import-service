@@ -1,6 +1,6 @@
 package com.wewash.services.processors;
 
-import com.wewash.services.domain.ebet.dto.event.EventDTO;
+import com.wewash.services.ebet.dto.event.EventDTO;
 import org.springframework.stereotype.Component;
 
 @Component

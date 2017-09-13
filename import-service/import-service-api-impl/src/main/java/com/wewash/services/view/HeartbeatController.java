@@ -1,7 +1,7 @@
 package com.wewash.services.view;
 
-import com.wewash.services.domain.ebet.dto.common.ProviderDTO;
-import com.wewash.services.domain.ebet.dto.heartbeat.HeartBeatDTO;
+import com.wewash.services.ebet.dto.common.ProviderDTO;
+import com.wewash.services.ebet.dto.heartbeat.HeartBeatDTO;
 import com.wewash.services.infra.send.EventDataPublisher;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

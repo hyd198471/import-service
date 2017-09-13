@@ -1,7 +1,7 @@
 package com.wewash.services.processors;
 
-import com.wewash.services.domain.ebet.dto.event.EventDTO;
-import com.wewash.services.domain.mapper.fixture.MessageMapper;
+import com.wewash.services.ebet.dto.event.EventDTO;
+import com.wewash.services.mapper.MessageMapper;
 import com.wewash.services.model.FixtureSnapshot;
 import com.wewash.services.model.IncomingMessage;
 import com.wewash.services.model.MessageProcessingLock;

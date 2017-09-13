@@ -2,7 +2,7 @@ package com.wewash.services.view;
 
 
 import com.wewash.services.audit.FileAuditor;
-import com.wewash.services.domain.messageloggers.MessageLoggerDispatcher;
+import com.wewash.services.messageloggers.MessageLoggerDispatcher;
 import org.apache.commons.io.IOUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -18,7 +18,6 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.servlet.ServletInputStream;
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
-import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 
 @RestController
