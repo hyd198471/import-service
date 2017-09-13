@@ -13,7 +13,7 @@ import static com.wewash.services.domain.ebet.dto.enums.Sport.FOOTBALL;
 @Component
 public class SportMapper {
 
-    private static final int BG_FOOTBALL = 10;
+    public static final int BG_FOOTBALL = 10;
 
     private static final Map<Integer, Sport> BG_ID_TO_PROVIDER_API_ID = new HashMap<>();
 

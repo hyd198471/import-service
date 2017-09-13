@@ -28,6 +28,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
+import java.util.UUID;
 import java.util.concurrent.Future;
 import java.util.concurrent.atomic.AtomicLong;
 
@@ -48,9 +49,15 @@ public class ProcessorWorker implements AsyncWorker<Long> {
 
     private final MessageMapper messageMapper;
 
+    private final SnapshotValidator snapshotValidator;
+
     private static final Set<MessageType> SKIP_PUBLISH_MESSAGE_TYPES = new HashSet<>();
 
     private final AtomicLong requestNumber = new AtomicLong(0);
+
+    private final String instanceUuid = UUID.randomUUID().toString().substring(0,6);
+
+    private final MaterialEventComparator materialEventComparator;
 
 
     private final Map<MessageType, MessageProcessor> messageProcessorMap = new EnumMap<>(MessageType.class);
@@ -83,13 +90,17 @@ public class ProcessorWorker implements AsyncWorker<Long> {
                            MessageProcessingLockRepository messageProcessingLockRepository,
                            IncomingMessageRepository incomingMessageRepository,
                            FixtureSnapshotRepository fixtureSnapshotRepository,
-                           MessageMapper messageMapper) {
+                           MessageMapper messageMapper,
+                           MaterialEventComparator materialEventComparator,
+                           SnapshotValidator snapshotValidator) {
         this.messageProcessors = Collections.unmodifiableList(messageProcessors);
         this.transactionTemplate = transactionTemplate;
         this.messageProcessingLockRepository = messageProcessingLockRepository;
         this.incomingMessageRepository = incomingMessageRepository;
         this.fixtureSnapshotRepository = fixtureSnapshotRepository;
         this.messageMapper= messageMapper;
+        this.materialEventComparator = materialEventComparator;
+        this.snapshotValidator = snapshotValidator;
 
     }
 
@@ -157,7 +168,77 @@ public class ProcessorWorker implements AsyncWorker<Long> {
         unprocessedMessages.sort(new FixtureFirstMessageLogComparator());
         long requestNum = requestNumber.incrementAndGet();
 
+        EventDTO updateDto = processMessages(fixtureId, originalDto, unprocessedMessages, requestNum, fixtureSnapshot);
+        if(hasMaterialDiff(originalDtoForComparison, updateDto)) {
+
+
+        }
+
         return false;
+    }
+
+    private boolean hasMaterialDiff(EventDTO originalDtoForComparison, EventDTO updateDto) {
+        return materialEventComparator.hasMaterialUpdate(originalDtoForComparison, updateDto);
+    }
+
+    private EventDTO processMessages(Long fixtureId, EventDTO originalDto,
+                                 List<IncomingMessage> unprocessedMessages,
+                                 long requestNumber, FixtureSnapshot fixtureSnapshot) {
+
+        EventDTO currentEventDto = originalDto;
+        for (IncomingMessage incomingMessage : unprocessedMessages) {
+            if(incomingMessage.getHeaderTimestamp().before(fixtureSnapshot.getBgHeaderTimestamp())) {
+                return reprocessMessagesSinceTimestampInOrder(fixtureId, incomingMessage.getHeaderTimestamp(), fixtureSnapshot,
+                        currentEventDto, requestNumber);
+            }
+
+            if(shouldProcessMessageType(incomingMessage.getMessageType())) {
+                currentEventDto = processMessageFromMap(fixtureId, currentEventDto, incomingMessage);
+            }
+            updateMessageAsProcessed(incomingMessage, requestNumber, currentEventDto);
+            fixtureSnapshot.setBgHeaderTimestamp(incomingMessage.getHeaderTimestamp());
+
+
+        }
+        return currentEventDto;
+    }
+
+    private void updateMessageAsProcessed(IncomingMessage incomingMessage, long requestNumber, EventDTO currentEventDto) {
+        incomingMessage.setProcessedAt(new Date());
+        incomingMessage.setProcessed(true);
+        incomingMessage.setProcessedByRequest(requestNumber);
+        incomingMessage.setProcessedByInstance(instanceUuid);
+
+        incomingMessageRepository.saveAndFlush(incomingMessage);
+
+    }
+
+    private EventDTO processMessageFromMap(Long fixtureId, EventDTO originalEventDto, IncomingMessage incomingMessage) {
+        Optional<MessageProcessor> messageProcessor = Optional.of(messageProcessorMap.
+                get(incomingMessage.getMessageType()));
+        if(!messageProcessor.isPresent()) {
+            return originalEventDto;
+        }
+        return messageProcessor.get().consumeMessageAndReturnEventDTO(fixtureId,
+                incomingMessage.getIncomingMessageJson(), originalEventDto);
+
+    }
+
+    private boolean shouldProcessMessageType(MessageType messageType) {
+        return !SKIP_PUBLISH_MESSAGE_TYPES.contains(messageType);
+
+    }
+
+    private EventDTO reprocessMessagesSinceTimestampInOrder(Long fixtureId, Date headerTimestamp,
+                                                            FixtureSnapshot fixtureSnapshot,
+                                                            EventDTO currentEventDto, long requestNumber) {
+        List<IncomingMessage> reprocessMessages =
+                incomingMessageRepository.findByFixtureIdAndHeaderTimestampGreaterThanEqualOrderByBgHeaderTimestamp(fixtureId, headerTimestamp);
+
+        fixtureSnapshot.setBgHeaderTimestamp(headerTimestamp);
+
+        return processMessages(fixtureId, currentEventDto, reprocessMessages, requestNumber, fixtureSnapshot);
+
     }
 
 
